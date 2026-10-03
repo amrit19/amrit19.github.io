@@ -40,7 +40,7 @@ cv:
         start_date: 2026-04
         end_date: present
         highlights:
-          - "Natural-language search over large-scale video and structured data."
+          - "Natural-language search for [Scenario Discovery](https://docs.aws.amazon.com/iot-sitewise/latest/userguide/scenario-discovery.html) in AWS IoT SiteWise, an agentic data curation solution for finding, curating and exporting multi-modal driving data for autonomous systems."
 
       - company: Amazon Web Services
         position: Software Development Engineer I
