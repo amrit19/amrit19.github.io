@@ -6,9 +6,8 @@ subtitle: Software Development Engineer at <a href="https://aws.amazon.com/">AWS
 
 profile:
   align: right
-  image: # add a photo as assets/img/prof_pic.jpg and set this to prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: # shown under the photo once one is added
+  image: prof_pic_placeholder.png # replace with prof_pic.jpg once the real photo is added
+  image_circular: true # crops the image to make it circular
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
