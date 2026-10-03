@@ -2,9 +2,9 @@
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 # cv_pdf: /assets/pdf/cv.pdf # path to your CV PDF file
-# email: # your email address
+email: amrit.puhan@outlook.com # your email address
 github_username: amrit19 # your GitHub user name
-linkedin_username: amritpuhan # your LinkedIn user name
+linkedin_username: amrit-puhan-2623a5154 # your LinkedIn user name
 openreview:
   logo: https://openreview.net/favicon.ico
   title: OpenReview
