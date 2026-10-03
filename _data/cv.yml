@@ -50,7 +50,7 @@ cv:
         start_date: 2026-04
         end_date: present
         highlights:
-          - "Natural-language video search over video and structured data for data curation in autonomous driving."
+          - "Natural-language search over video and structured data for data curation in autonomous driving."
           - "Time series anomaly detection for predictive maintenance of industrial equipment, using supervised and unsupervised statistical and deep learning models."
 
       - company: Amazon Web Services, Applied AI Solutions
