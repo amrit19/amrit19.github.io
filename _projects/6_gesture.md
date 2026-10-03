@@ -9,4 +9,4 @@ related_publications: true
 
 **NIT Rourkela, Jan 2019 to May 2019**
 
-Built a password system based on dynamic hand gestures. It classifies nine hand signs with 96.16% accuracy, using MLP-based feature extraction.
+Built a password system based on dynamic hand gestures that runs on an ordinary built-in laptop webcam instead of a Kinect camera, so it could be added as a security layer on everyday laptops and phones. A feed-forward back-propagation neural network, implemented in Octave, classifies nine gesture classes, reaching 96.16% average accuracy on the test set.
