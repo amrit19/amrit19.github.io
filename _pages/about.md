@@ -21,7 +21,7 @@ latest_posts:
   enabled: false
 ---
 
-I am a Software Development Engineer II at Amazon Web Services, where I work on natural-language search for [Scenario Discovery](https://docs.aws.amazon.com/iot-sitewise/latest/userguide/scenario-discovery.html), an agentic data curation solution in AWS IoT SiteWise for autonomous systems.
+I am a Software Development Engineer II in the Applied AI Solutions org at Amazon Web Services, where I build natural-language search and machine learning systems for autonomous systems data.
 
 I completed my MS in Informatics (Data Science) at Penn State in the [FAIR Lab](https://sites.google.com/view/fairailab), advised by [Dr. Hadi Hosseini](https://faculty.ist.psu.edu/hadi/) and working with [Dr. Debmalya Mandal](https://debmandal.github.io/). My thesis, [_Recovering Ground Truth Rankings When the Majority Is Misinformed_](https://etda.libraries.psu.edu/catalog/29018avp6267), won Penn State's Best MSc AI Thesis award. It led to three papers on _surprisingly popular_ voting at NeurIPS 2024, WWW 2025 and KDD 2026, where I am the lead author (authors are listed alphabetically). Before that, I earned my B.Tech in Computer Science and Engineering from NIT Rourkela, where I did my undergraduate thesis in the Intelligent Computing and Computer Vision group with [Dr. Anup Nandy](https://www.nitrkl.ac.in/CS/~nandya/).
 

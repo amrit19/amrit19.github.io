@@ -35,12 +35,12 @@ cv:
           - "Undergraduate thesis: Human Gait as a Cognitive State Predictor, in the Intelligent Computing and Computer Vision research group, advised by Dr. Anup Nandy."
 
     Experience:
-      - company: Amazon Web Services
+      - company: Amazon Web Services, Applied AI Solutions
         position: Software Development Engineer II
         start_date: 2026-04
         end_date: present
         highlights:
-          - "Natural-language search for [Scenario Discovery](https://docs.aws.amazon.com/iot-sitewise/latest/userguide/scenario-discovery.html) in AWS IoT SiteWise, an agentic data curation solution for finding, curating and exporting multi-modal driving data for autonomous systems."
+          - "Natural-language search over large-scale video and structured data for autonomous systems."
 
       - company: Amazon Web Services
         position: Software Development Engineer I
