@@ -14,86 +14,126 @@ cv:
   sections:
     Education:
       - institution: The Pennsylvania State University
-        location: University Park, PA
+        location: State College, PA
         url: https://ist.psu.edu/
         area: Informatics (Data Science concentration)
         studyType: MS
-        start_date: 2022
-        end_date: 2024
+        start_date: 2022-08
+        end_date: 2024-08
         highlights:
-          - "Thesis: [Recovering Ground Truth Rankings When the Majority Is Misinformed](https://etda.libraries.psu.edu/catalog/29018avp6267), advised by Dr. Hadi Hosseini."
-          - "Best MSc AI Thesis, Penn State."
-          - "Research in the FAIR Lab with Dr. Hadi Hosseini and Dr. Debmalya Mandal."
+          - "Advised by Dr. Hadi Hosseini."
+          - "Thesis: [Recovering Ground Truth Rankings When the Majority Is Misinformed](https://etda.libraries.psu.edu/catalog/29018avp6267). Best MS Thesis Award in Artificial Intelligence."
 
       - institution: National Institute of Technology, Rourkela
         location: Rourkela, India
         area: Computer Science and Engineering
         studyType: B.Tech
-        start_date: 2016
-        end_date: 2020
+        start_date: 2016-07
+        end_date: 2020-05
         highlights:
-          - "Undergraduate thesis: Human Gait as a Cognitive State Predictor, in the Intelligent Computing and Computer Vision research group, advised by Dr. Anup Nandy."
+          - "Advised by Dr. Anup Nandy. Undergraduate thesis: Human Gait as a Cognitive State Predictor, in the Intelligent Computing and Computer Vision research group."
+          - "Student Mentor, Institute Counselling Services (2018 to 2020). Member of the institute football team."
+
+      - institution: St. Paul's School, Rourkela
+        location: Rourkela, India
+        area: ISC (Class XII), 96.8%; ICSE (Class X), 97.2%
+        studyType: School
+        start_date: 2003
+        end_date: 2016
+        highlights:
+          - "Deputy Head Boy (2012 to 2013). School football team, swimming and athletics."
 
     Experience:
       - company: Amazon Web Services, Applied AI Solutions
         position: Software Development Engineer II
+        location: Seattle, WA
         start_date: 2026-04
         end_date: present
         highlights:
-          - "Natural-language search over large-scale video and structured data for autonomous systems."
+          - "Video search and time series anomaly detection in the automotive and industrial space."
 
-      - company: Amazon Web Services
-        position: Software Development Engineer I
+      - company: Amazon Web Services, Applied AI Solutions
+        position: Software Development Engineer
+        location: Seattle, WA
         start_date: 2024-12
-        end_date: 2026-03
-        highlights:
-          - "Statistical and deep learning models for time series anomaly detection."
-          - "Cloud services for IoT and connected devices."
+        end_date: 2026-04
 
       - company: FAIR Lab, Penn State
         position: AI Researcher
-        location: University Park, PA
-        start_date: 2023-01
+        location: State College, PA
+        start_date: 2024-08
         end_date: 2024-12
         highlights:
-          - "Lead author of three papers on surprisingly popular voting and rank aggregation (NeurIPS 2024, WWW 2025, KDD 2026)."
+          - "Research assistant in the Foundations of Artificial Intelligence Research Lab under Dr. Hadi Hosseini, developing AI algorithms for multi-agent systems."
+          - "Bayesian analysis of voter behavior to predict ground truth rankings from partial information."
+          - "Improving context alignment of large language models by enhancing the RLHF pipeline."
 
       - company: Penn State Organizational Effectiveness
-        position: Part-Time Graduate Assistant
-        location: University Park, PA
+        position: Graduate Assistant (part-time)
+        location: State College, PA
         start_date: 2023-08
         end_date: 2024-08
         highlights:
-          - "Built SharePoint sites and Power BI dashboards supporting strategic insights for Penn State World Campus and Outreach."
+          - "Built dashboards giving insights on student enrollments for Penn State World Campus."
+
+      - company: FAIR Lab, Penn State
+        position: Summer Research Assistant
+        location: State College, PA
+        start_date: 2023-05
+        end_date: 2023-08
+        highlights:
+          - "Proposed two scalable variants of the Surprisingly Popular algorithm, improving the accuracy of ground-truth ranking recovery via crowdsourcing."
+          - "Proposed a mathematical model of voter behavior and verified it by inferring parameters on real and simulated data with the No-U-Turn Sampler (an extension of Hamiltonian Monte Carlo)."
 
       - company: Penn State College of IST
-        position: Instructional Assistant
-        location: University Park, PA
+        position: Instructional Assistant (part-time)
+        location: State College, PA
         start_date: 2023-01
         end_date: 2023-05
         highlights:
-          - "IST 261: Application Development (Java, MVC). Coached students, lectured, held office hours and graded."
+          - "IST 261: tutored, graded, and taught industry-standard coding practices using MVC in Java."
 
       - company: SAP Labs India
         position: Associate Software Developer
-        location: India
+        location: Bengaluru, India
         start_date: 2020-07
         end_date: 2022-07
         highlights:
-          - "Full-stack development of a payroll application with the SAP UI5 framework."
-          - "DevOps: managed Jenkins CI/CD pipelines and global deployments."
-          - "Backend development in Java Spring Boot; ran quarterly testing events; Scrum certified."
+          - "Developed five front-end applications for SAP SuccessFactors, an enterprise B2B cloud application."
+          - "Quality Analyst for one year: oversaw quality standards for six projects and coordinated the SAP SuccessFactors Quarterly Testing Event twice."
+          - "CI/CD contact managing application deployment for ten teams."
 
-      - company: Schneider Electric
+      - company: Schneider Electric India
         position: Research Intern
-        location: India
+        location: Bengaluru, India
         start_date: 2019-05
         end_date: 2019-07
         highlights:
-          - "Built an IoT door entry system with web and mobile apps, using WebRTC for remote access."
+          - "Built a prototype IoT door entry system with real-time text, audio and video communication."
+          - "Developed web and mobile (Android and iOS) support for the suite."
 
     Awards:
-      - title: Best MSc AI Thesis
-        awarder: Penn State
-        date: 2024
-        summary: For the MS thesis "Recovering Ground Truth Rankings When the Majority Is Misinformed."
+      - title: Best MS Thesis Award in Artificial Intelligence
+        awarder: Penn State University
+        date: 2025-05
+
+      - title: NeurIPS 2024 Scholar Award
+        awarder: Neural Information Processing Systems
+        date: 2024-10
+        summary: Covered conference registration and stay for NeurIPS 2024.
+
+      - title: SAP Alumni Award
+        awarder: SAP
+        date: 2022-08
+
+      - title: Fast Learner Award
+        awarder: SAP Labs India
+        date: 2021-03
+
+      - title: National Talent Search Examination Scholarship (All India Rank 245)
+        awarder: NCERT, Government of India
+        summary: Awarded a national rank of 245 out of about 1 million candidates. Held through undergraduate studies.
+
+      - title: Junior Mathematics Olympiad Scholarship (State Rank 8)
+        awarder: Institute of Mathematics and Applications, Government of Odisha
+        summary: Presented by the Chief Minister of Odisha.
