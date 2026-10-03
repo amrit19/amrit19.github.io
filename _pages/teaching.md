@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Teaching experience and graduate coursework.
+title: teaching & service
+description: Teaching, academic service and graduate coursework.
 nav: true
 nav_order: 4
 ---
@@ -20,6 +20,11 @@ IST 261 teaches application development in Java with an emphasis on industry pra
 - held office hours for tutoring
 - graded assignments with constructive feedback
 - served as a liaison between students and faculty
+
+## Service
+
+- Reviewer, The ACM Web Conference (WWW) 2025, Main Track
+- Reviewer, KDD 2026, Datasets and Benchmarks Track
 
 ## Graduate coursework (Penn State)
 

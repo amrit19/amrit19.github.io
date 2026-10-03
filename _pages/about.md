@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Software Development Engineer at <a href="https://aws.amazon.com/">AWS</a>. MS in Informatics, <a href="https://ist.psu.edu/">Penn State</a>.
+subtitle: Software Development Engineer II at <a href="https://aws.amazon.com/">AWS</a>. MS in Informatics, <a href="https://ist.psu.edu/">Penn State</a>.
 
 profile:
   align: right
@@ -21,9 +21,11 @@ latest_posts:
   enabled: false
 ---
 
-I am a Software Development Engineer at Amazon Web Services. I completed my MS in Informatics (Data Science concentration) at Penn State University, where I did research in the FAIR Lab under the guidance of [Dr. Hadi Hosseini](https://faculty.ist.psu.edu/hadi/) and [Dr. Debmalya Mandal](https://debmandal.github.io/). Before that, I earned my B.Tech in Computer Science and Engineering from the National Institute of Technology, Rourkela.
+I am a Software Development Engineer II at Amazon Web Services, where I work on machine learning and natural-language search systems.
 
-My research sits at the intersection of **algorithm design, machine learning, and multi-agent systems**. At Penn State I worked on _surprisingly popular_ voting, which recovers the ground truth from crowds where experts and non-experts are mixed. This work appeared at NeurIPS 2024 and The Web Conference 2025. More broadly, I am interested in:
+I completed my MS in Informatics (Data Science) at Penn State in the [FAIR Lab](https://sites.google.com/view/fairailab), advised by [Dr. Hadi Hosseini](https://faculty.ist.psu.edu/hadi/) and working with [Dr. Debmalya Mandal](https://debmandal.github.io/). My thesis, [_Recovering Ground Truth Rankings When the Majority Is Misinformed_](https://etda.libraries.psu.edu/catalog/29018avp6267), won Penn State's Best MSc AI Thesis award. It led to three papers on _surprisingly popular_ voting at NeurIPS 2024, WWW 2025 and KDD 2026, where I am the lead author (authors are listed alphabetically). Before that, I earned my B.Tech in Computer Science and Engineering from NIT Rourkela, where I did my undergraduate thesis in the Intelligent Computing and Computer Vision group with [Dr. Anup Nandy](https://www.nitrkl.ac.in/CS/~nandya/).
+
+More broadly, I am interested in:
 
 - Computational social choice and AI in multi-agent systems
 - Reinforcement learning, including learning from human feedback

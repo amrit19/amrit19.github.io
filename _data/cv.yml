@@ -1,6 +1,6 @@
 cv:
   name: Amrit Puhan
-  label: Software Development Engineer, AWS
+  label: Software Development Engineer II, AWS
   email: amrit.puhan@outlook.com
   image: ""
   summary: Software engineer and researcher interested in algorithm design, machine learning, computational social choice and multi-agent systems.
@@ -21,7 +21,9 @@ cv:
         start_date: 2022
         end_date: 2024
         highlights:
-          - "Research in the FAIR Lab, advised by Dr. Hadi Hosseini and mentored by Dr. Debmalya Mandal."
+          - "Thesis: [Recovering Ground Truth Rankings When the Majority Is Misinformed](https://etda.libraries.psu.edu/catalog/29018avp6267), advised by Dr. Hadi Hosseini."
+          - "Best MSc AI Thesis, Penn State."
+          - "Research in the FAIR Lab with Dr. Hadi Hosseini and Dr. Debmalya Mandal."
 
       - institution: National Institute of Technology, Rourkela
         location: Rourkela, India
@@ -30,13 +32,23 @@ cv:
         start_date: 2016
         end_date: 2020
         highlights:
-          - "Undergraduate thesis: Human Gait as a Cognitive State Predictor."
+          - "Undergraduate thesis: Human Gait as a Cognitive State Predictor, in the Intelligent Computing and Computer Vision research group, advised by Dr. Anup Nandy."
 
     Experience:
       - company: Amazon Web Services
-        position: Software Development Engineer
-        start_date: 2024-12
+        position: Software Development Engineer II
+        start_date: 2026-04
         end_date: present
+        highlights:
+          - "Natural-language search over large-scale video and structured data."
+
+      - company: Amazon Web Services
+        position: Software Development Engineer I
+        start_date: 2024-12
+        end_date: 2026-03
+        highlights:
+          - "Statistical and deep learning models for time series anomaly detection."
+          - "Cloud services for IoT and connected devices."
 
       - company: FAIR Lab, Penn State
         position: AI Researcher
@@ -44,7 +56,7 @@ cv:
         start_date: 2023-01
         end_date: 2024-12
         highlights:
-          - "Designed surprisingly popular voting mechanisms for partial preferences (NeurIPS 2024, WWW 2025)."
+          - "Lead author of three papers on surprisingly popular voting and rank aggregation (NeurIPS 2024, WWW 2025, KDD 2026)."
 
       - company: Penn State Organizational Effectiveness
         position: Part-Time Graduate Assistant
@@ -79,3 +91,9 @@ cv:
         end_date: 2019-07
         highlights:
           - "Built an IoT door entry system with web and mobile apps, using WebRTC for remote access."
+
+    Awards:
+      - title: Best MSc AI Thesis
+        awarder: Penn State
+        date: 2024
+        summary: For the MS thesis "Recovering Ground Truth Rankings When the Majority Is Misinformed."
