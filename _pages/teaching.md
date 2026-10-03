@@ -2,10 +2,15 @@
 layout: page
 permalink: /teaching/
 title: teaching & service
-description: Teaching, academic service and graduate coursework.
+description: Academic service and teaching.
 nav: true
 nav_order: 4
 ---
+
+## Service
+
+- Reviewer, The ACM Web Conference (WWW) 2025, Main Track
+- Reviewer, KDD 2026, Datasets and Benchmarks Track
 
 ## Teaching
 
@@ -20,21 +25,3 @@ IST 261 teaches application development in Java with an emphasis on industry pra
 - held office hours for tutoring
 - graded assignments with constructive feedback
 - served as a liaison between students and faculty
-
-## Service
-
-- Reviewer, The ACM Web Conference (WWW) 2025, Main Track
-- Reviewer, KDD 2026, Datasets and Benchmarks Track
-
-## Graduate coursework (Penn State)
-
-| Course                                              | Instructor                 | Topics                                                                                  |
-| --------------------------------------------------- | -------------------------- | --------------------------------------------------------------------------------------- |
-| CSE 588: Large-Scale Machine Learning               | Dr. Mehrdad Mahdavi        | PAC learning, ERM, matrix computation, convex and non-convex analysis, gradient descent |
-| IST 597: Fairness, Incentives, and Mechanism Design | Dr. Hadi Hosseini          | Voting, resource allocation, matching                                                   |
-| IST 597: Foundations of Deep Learning               | Dr. C. Lee Giles           | Neural networks, CNNs, RNNs and LSTMs, Transformers, physics-informed neural networks   |
-| IST 557: Data Mining I: Techniques and Applications | Dr. Justin Silverman       | Linear and Bayesian regression, SVMs, clustering, ensembles, recommender systems        |
-| IST 558: Data Mining II                             | Dr. Justin Silverman       | Bayesian statistics, MCMC, variational inference, generative models (VAEs, GANs)        |
-| STAT 500: Applied Statistics                        | Dr. Priyangi Bulathsinhala | Probability, distributions, hypothesis testing, confidence intervals, ANOVA             |
-| IST 504: IST Research Foundations                   | Dr. Luke Zhang             |                                                                                         |
-| IST 602: Supervised Experience in College Teaching  | Dr. Lisa Lenze             |                                                                                         |

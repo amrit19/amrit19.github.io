@@ -30,3 +30,8 @@ More broadly, I am interested in:
 - Reinforcement learning, including learning from human feedback
 - Bayesian statistical modeling
 - Deep learning for language and vision
+
+## academic service
+
+- Reviewer, The ACM Web Conference (WWW) 2025, Main Track
+- Reviewer, KDD 2026, Datasets and Benchmarks Track
