@@ -31,5 +31,3 @@ My research sits at the intersection of **algorithm design, machine learning, an
 - Reinforcement learning, including learning from human feedback
 - Bayesian statistical modeling
 - Deep learning for language and vision
-
-I am applying to PhD programs to continue research in these areas.
