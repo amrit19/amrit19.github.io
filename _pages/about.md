@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: Software Development Engineer II at <a href="https://aws.amazon.com/">AWS</a>. MS in Informatics, <a href="https://ist.psu.edu/">Penn State</a>.
 
 profile:
   align: right
