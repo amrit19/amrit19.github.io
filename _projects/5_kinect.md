@@ -3,7 +3,7 @@ layout: page
 title: Multi-Kinect camera calibration
 description: Pairwise and octagonal calibration methods for multiple Kinect v2 sensors. CVIP 2021.
 importance: 5
-category: undergraduate
+category: undergraduate @ NIT Rourkela
 related_publications: true
 ---
 

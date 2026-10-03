@@ -3,7 +3,7 @@ layout: page
 title: Surprisingly popular voting
 description: Recovering the ground truth from crowds of experts and non-experts. NeurIPS 2024, WWW 2025 and KDD 2026.
 importance: 2
-category: research
+category: masters @ Penn State
 related_publications: true
 ---
 

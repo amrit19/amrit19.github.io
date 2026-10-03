@@ -3,7 +3,7 @@ layout: page
 title: Human gait as a cognitive state predictor
 description: Undergraduate thesis linking gait patterns to cognitive states.
 importance: 4
-category: undergraduate
+category: undergraduate @ NIT Rourkela
 ---
 
 **NIT Rourkela, Aug 2019 to May 2020 (undergraduate thesis)**

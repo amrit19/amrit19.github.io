@@ -3,7 +3,7 @@ layout: page
 title: Fine-tuning LLMs with RLHF
 description: Fine-tuning large language models using reinforcement learning with human feedback.
 importance: 1
-category: research
+category: masters @ Penn State
 ---
 
 **Penn State, Nov 2023 onwards**

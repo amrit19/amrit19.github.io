@@ -3,7 +3,7 @@ layout: page
 title: Hand gesture password recognition
 description: A dynamic hand gesture-based password system. ICCIS 2019.
 importance: 6
-category: undergraduate
+category: undergraduate @ NIT Rourkela
 related_publications: true
 ---
 
