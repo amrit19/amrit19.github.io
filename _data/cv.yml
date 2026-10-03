@@ -125,18 +125,16 @@ cv:
         date: 2024-10
         summary: Given to a select group of early-career researchers, with a grant covering registration and travel to attend and present at NeurIPS 2024.
 
-      - title: SAP Alumni Award
-        awarder: SAP
-        date: 2022-08
-
       - title: Fast Learner Award
         awarder: SAP Labs India
         date: 2021-03
 
       - title: National Talent Search Examination Scholarship (All India Rank 245)
         awarder: NCERT, Government of India
+        date: 2012
         summary: Awarded a national rank of 245 out of about 1 million candidates. Held through undergraduate studies.
 
       - title: Junior Mathematics Olympiad Scholarship (State Rank 8)
         awarder: Institute of Mathematics and Applications, Government of Odisha
+        date: 2012
         summary: Presented by the Chief Minister of Odisha.
