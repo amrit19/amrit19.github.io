@@ -50,14 +50,16 @@ cv:
         start_date: 2026-04
         end_date: present
         highlights:
-          - "Natural-language search over video and structured data for data curation in autonomous driving."
-          - "Time series anomaly detection for predictive maintenance of industrial equipment, using supervised and unsupervised statistical and deep learning models."
+          - "Built a natural-language video search engine for autonomous-driving data curation that interprets free-text queries, searches video and its structured data, and ranks results for model training."
+          - "Primary science contact on the team for time series anomaly detection in predictive maintenance of industrial equipment, evaluating supervised and unsupervised statistical and deep learning models."
 
       - company: Amazon Web Services, Applied AI Solutions
         position: Software Development Engineer
         location: Seattle, WA
         start_date: 2024-12
         end_date: 2026-04
+        highlights:
+          - "Contributed to an IoT service connecting vehicle fleets to the cloud for over-the-air software updates and data transfer."
 
       - company: FAIR Lab, Penn State
         position: AI Researcher
