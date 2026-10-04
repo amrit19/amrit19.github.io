@@ -13,6 +13,8 @@ nav_order: 1
 
 {% include bib_search.liquid %}
 
+<p class="pub-key"><sup>*</sup> Lead author; authors listed alphabetically. &nbsp; <sup>†</sup> Equal contribution, co-first author.</p>
+
 <div class="publications">
 
 {% bibliography %}

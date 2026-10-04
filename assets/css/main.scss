@@ -191,3 +191,10 @@ button:focus-visible {
     display: none;
   }
 }
+
+/* Authorship key on the publications page */
+.pub-key {
+  font-size: 0.88rem;
+  color: var(--global-text-color-light);
+  margin: 0.5rem 0 0;
+}
