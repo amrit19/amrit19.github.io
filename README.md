@@ -1,4 +1,4 @@
-# Amrit Puhan's personal website: [amrit19.github.io](https://amrit19.github.io)
+# Amrit Puhan's personal website: [www.amritpuhan.com](https://www.amritpuhan.com)
 
 ## License
 
