@@ -26,10 +26,11 @@ I completed my MS in Informatics (Data Science concentration) at Penn State in t
 
 More broadly, I am interested in:
 
-- Computational social choice and AI in multi-agent systems
-- Reinforcement learning, including learning from human feedback
-- Bayesian statistical modeling
-- Deep learning for language and vision
+- Computational social choice: recovering ground truth from noisy, disagreeing preferences through rank aggregation and _surprisingly popular_ voting
+- Aligning AI with human preferences: preference elicitation and learning from human feedback for large language models
+- Multi-agent LLM systems, including inference-time preference elicitation and multi-agent fine-tuning
+- Probabilistic and Bayesian models of human behavior, such as Mallows and Plackett-Luce ranking models
+- Multi-modal search and retrieval over large-scale video and sensor data
 
 ## academic service
 
