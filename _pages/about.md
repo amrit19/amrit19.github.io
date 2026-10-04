@@ -32,6 +32,9 @@ I am a Software Development Engineer II in the Applied AI Solutions org at Amazo
     .journey li.now::before { background: var(--global-theme-color); }
     .journey .when { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase; color: var(--global-text-color-light); }
     .journey .what { font-weight: 600; }
+    .journey .areas strong {
+      font-weight: 700;
+    }
     .journey .areas { font-size: 0.92rem; }
     .journey .tags { margin-top: 0.2rem; }
     .journey .tags a { font-size: 0.78rem; display: inline-block; margin: 0.15rem 0.3rem 0 0; padding: 0.05rem 0.55rem; border: 1px solid var(--global-theme-color); border-radius: 1rem; text-decoration: none; }
@@ -40,32 +43,38 @@ I am a Software Development Engineer II in the Applied AI Solutions org at Amazo
   <ol>
     <li class="now">
       <div class="when">Now</div>
-      <div class="what">Multi-agent LLMs and preference elicitation</div>
-      <div class="areas">Inference-time preference elicitation in multi-agent LLM settings, and improving LLMs through multi-agent fine-tuning.</div>
+      <div class="what">Independent research: multi-agent LLMs</div>
+      <div class="areas"><strong>Multi-Agent LLMs</strong> for inference-time preference elicitation and multi-agent fine-tuning</div>
       <div class="tags"><a href="{{ '/projects/' | relative_url }}">current research</a></div>
     </li>
     <li class="now">
       <div class="when">2024 – present</div>
       <div class="what">Amazon Web Services, Applied AI Solutions</div>
-      <div class="areas">Multi-modal video search for ADAS/AV teams over petabyte-scale data; time series anomaly detection for industrial predictive maintenance.</div>
+      <div class="areas"><strong>Deep Learning &amp; Information Retrieval</strong> for video search in ADAS/autonomous driving · <strong>Deep Learning &amp; Statistical Learning</strong> for anomaly detection in industrial predictive maintenance</div>
       <div class="tags"><a href="{{ '/cv/' | relative_url }}">experience</a></div>
     </li>
     <li>
       <div class="when">2022 – 2024</div>
       <div class="what">MS Informatics, Penn State, FAIR Lab</div>
-      <div class="areas">Computational social choice, <em>surprisingly popular</em> voting, Bayesian models of voter behavior, crowdsourcing. Best MS Thesis Award in AI; papers at NeurIPS 2024, WWW 2025 and KDD 2026.</div>
+      <div class="areas"><strong>Bayesian Statistics, Algorithm Design &amp; Multi-Agent AI</strong> for voting systems of humans and LLMs · Best MS Thesis Award in AI; NeurIPS 2024, WWW 2025, KDD 2026</div>
       <div class="tags"><a href="{{ '/publications/' | relative_url }}">publications</a><a href="{{ '/projects/' | relative_url }}">projects</a><a href="{{ '/teaching/' | relative_url }}">teaching</a></div>
     </li>
     <li>
       <div class="when">2020 – 2022</div>
       <div class="what">SAP Labs India</div>
-      <div class="areas">Enterprise cloud software for SAP SuccessFactors: front-end apps, quality, and CI/CD automation.</div>
+      <div class="areas"><strong>Web Development</strong> for a next-generation payroll application in SAP SuccessFactors</div>
+      <div class="tags"><a href="{{ '/cv/' | relative_url }}">experience</a></div>
+    </li>
+    <li>
+      <div class="when">2019</div>
+      <div class="what">Schneider Electric India, Summer Intern</div>
+      <div class="areas"><strong>IoT, Mobile App &amp; Web Development</strong> for a door-entry system</div>
       <div class="tags"><a href="{{ '/cv/' | relative_url }}">experience</a></div>
     </li>
     <li>
       <div class="when">2016 – 2020</div>
       <div class="what">B.Tech Computer Science, NIT Rourkela</div>
-      <div class="areas">Computer vision and machine learning: multi-Kinect calibration for gait analysis, gesture recognition. Papers at CVIP 2021 and ICCIS 2019.</div>
+      <div class="areas"><strong>Computer Vision &amp; Machine Learning</strong> for emotion recognition from human gait · CVIP 2021, ICCIS 2019</div>
       <div class="tags"><a href="{{ '/projects/' | relative_url }}">projects</a><a href="{{ '/publications/' | relative_url }}">publications</a></div>
     </li>
   </ol>

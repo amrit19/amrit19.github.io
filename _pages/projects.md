@@ -5,7 +5,7 @@ permalink: /projects/
 description: Research and engineering projects.
 nav: true
 nav_order: 2
-display_categories: [current research, masters @ Penn State, undergraduate @ NIT Rourkela]
+display_categories: [current research (independent researcher), masters @ Penn State, undergraduate @ NIT Rourkela]
 horizontal: false
 ---
 
