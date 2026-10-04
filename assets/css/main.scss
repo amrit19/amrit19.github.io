@@ -201,7 +201,7 @@ button:focus-visible {
 
 /* Same authorship key under "selected publications" on the About page */
 h2:has(> a[href$="/publications/"])::after {
-  content: "* Lead author; authors listed alphabetically.\00a0\00a0\00a0† Equal contribution, co-first author.";
+  content: "* Lead author; authors listed alphabetically.";
   display: block;
   margin-top: 0.4rem;
   font-size: 0.88rem;
