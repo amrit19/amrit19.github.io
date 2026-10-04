@@ -33,5 +33,5 @@ More broadly, I am interested in:
 
 ## academic service
 
-- Reviewer, The ACM Web Conference (WWW) 2025, Main Track
 - Reviewer, KDD 2026, Datasets and Benchmarks Track
+- Reviewer, The ACM Web Conference (WWW) 2025, Main Track

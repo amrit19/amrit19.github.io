@@ -9,8 +9,8 @@ nav_order: 4
 
 ## Service
 
-- Reviewer, The ACM Web Conference (WWW) 2025, Main Track
 - Reviewer, KDD 2026, Datasets and Benchmarks Track
+- Reviewer, The ACM Web Conference (WWW) 2025, Main Track
 
 ## Teaching
 
