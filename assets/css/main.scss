@@ -198,3 +198,14 @@ button:focus-visible {
   color: var(--global-text-color-light);
   margin: 0.5rem 0 0;
 }
+
+/* Same authorship key under "selected publications" on the About page */
+h2:has(> a[href$="/publications/"])::after {
+  content: "* Lead author; authors listed alphabetically.\00a0\00a0\00a0† Equal contribution, co-first author.";
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.88rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: var(--global-text-color-light);
+}
