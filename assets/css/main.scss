@@ -116,3 +116,78 @@ button:focus-visible {
     scroll-behavior: auto !important;
   }
 }
+
+/* Quick links under the intro on the About page */
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.25rem 0 1.5rem;
+}
+.quick-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.85rem;
+  border: 1px solid var(--global-theme-color);
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none !important;
+  color: var(--global-theme-color);
+  transition:
+    background-color 0.15s,
+    color 0.15s;
+}
+.quick-links a:hover,
+.quick-links a:focus-visible {
+  background: var(--global-theme-color);
+  color: var(--global-bg-color);
+}
+
+/* Replace the cryptic "ctrl k" label with a plain "search" label */
+#search-toggle .nav-link {
+  font-size: 0;
+}
+#search-toggle .nav-link::before {
+  content: "search";
+  font-size: 1rem;
+}
+#search-toggle .nav-link i {
+  font-size: 0.9rem;
+  margin-left: 0.35rem;
+}
+
+/* Phone-width adjustments */
+@media (max-width: 576px) {
+  h1,
+  .post-title {
+    font-size: 2rem;
+  }
+  .projects h2.category {
+    font-size: 1.35rem;
+  }
+  .card-title {
+    font-size: 1.35rem;
+  }
+}
+
+/* Career timeline: stack vertically on narrow screens instead of scrolling sideways */
+@media (max-width: 760px) {
+  .tl.tl {
+    overflow: visible;
+  }
+  .tl .tl-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    min-width: 0;
+    border-left: 3px solid var(--global-divider-color);
+    padding-left: 1rem;
+  }
+  .tl .tl-node,
+  .tl .tl-top::after,
+  .tl .tl-bot::before {
+    display: none;
+  }
+}

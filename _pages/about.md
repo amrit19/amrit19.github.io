@@ -22,6 +22,15 @@ latest_posts:
 
 I am a Software Development Engineer II in the Applied AI Solutions org at Amazon Web Services, where I build AI systems over petabyte-scale automotive and industrial data. For autonomous driving (ADAS/AV) teams, I work on a multi-modal video search system that helps developers surface rare edge cases across video, sensor and annotation data using plain-English queries. In the industrial space, I work on time series anomaly detection for predictive maintenance of equipment.
 
+<div class="quick-links">
+  <a href="mailto:amrit.puhan@outlook.com"><i class="fa-solid fa-envelope"></i> Email</a>
+  <a href="{{ '/assets/pdf/Amrit_Puhan_CV.pdf' | relative_url }}"><i class="fa-solid fa-file-pdf"></i> CV (PDF)</a>
+  <a href="{{ '/publications/' | relative_url }}"><i class="fa-solid fa-book-open"></i> Publications</a>
+  <a href="https://scholar.google.com/citations?user=G1U8jiIAAAAJ"><i class="ai ai-google-scholar"></i> Scholar</a>
+  <a href="https://www.linkedin.com/in/amrit-puhan-2623a5154"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+  <a href="https://github.com/amrit19"><i class="fa-brands fa-github"></i> GitHub</a>
+</div>
+
 I completed my MS in Informatics (Data Science concentration) at [Penn State](https://ist.psu.edu/) in the [FAIR Lab](https://sites.google.com/view/fairailab), advised by [Dr. Hadi Hosseini](https://faculty.ist.psu.edu/hadi/). I was also mentored by and collaborated with [Dr. Debmalya Mandal](https://debmandal.github.io/). My thesis, [_Recovering Ground Truth Rankings When the Majority Is Misinformed_](https://etda.libraries.psu.edu/catalog/29018avp6267), won Best Master's Thesis on an AI-related topic at the Penn State AI Awards. This work on _surprisingly popular_ voting led to publications at [NeurIPS 2024](https://proceedings.neurips.cc/paper_files/paper/2024/hash/054e9f9a286671ababa3213d6e59c1c2-Abstract-Conference.html), [WWW 2025](https://doi.org/10.1145/3696410.3714707) and [KDD 2026](https://doi.org/10.1145/3770855.3817549). Before that, I earned my B.Tech in Computer Science and Engineering from [NIT Rourkela](https://www.nitrkl.ac.in/), where I did my undergraduate thesis in the Intelligent Computing and Computer Vision group with [Dr. Anup Nandy](https://www.nitrkl.ac.in/CS/~nandya/).
 
 ## my career at a glance
