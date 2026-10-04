@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://amrit19.github.io/sitemap.xml
+Sitemap: https://www.amritpuhan.com/sitemap.xml
