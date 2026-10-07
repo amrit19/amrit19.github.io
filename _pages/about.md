@@ -20,7 +20,7 @@ latest_posts:
   enabled: false
 ---
 
-I am a **Software Development Engineer II** in the Applied AI Solutions org at **Amazon Web Services (AWS)**, where I build AI systems over petabyte-scale automotive and industrial data. For autonomous driving (ADAS/AV) teams, I work on a **multi-modal video search system** that helps developers surface rare edge cases across video, sensor and annotation data using plain-English queries. In the industrial space, I work on **time series anomaly detection** for predictive maintenance of equipment.
+I am a **Software Development Engineer II** in the Applied AI Solutions org at **Amazon Web Services (AWS)**, where I build AI systems over petabyte-scale automotive and industrial data. For autonomous driving (ADAS/AV) teams, I work on a **multi-modal video search system** that helps developers surface rare edge cases across video, sensor and annotation data using natural language queries. In the industrial space, I work on **time series anomaly detection** for predictive maintenance of equipment.
 
 <div class="quick-links">
   <a href="mailto:amrit.puhan@outlook.com"><i class="fa-solid fa-envelope"></i> Email</a>
