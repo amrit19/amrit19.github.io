@@ -158,6 +158,13 @@ button:focus-visible {
   margin-left: 0.35rem;
 }
 
+/* Section labels (project categories, publication years). The theme draws them in the
+   divider color, which nearly disappears in dark mode; use the muted text color instead. */
+.projects h2.category,
+.publications h2.bibliography {
+  color: var(--global-text-color-light);
+}
+
 /* Phone-width adjustments */
 @media (max-width: 576px) {
   h1,
