@@ -9,7 +9,7 @@ cv:
     - network: GitHub
       username: amrit19
     - network: LinkedIn
-      username: amrit-puhan-2623a5154
+      username: amritpuhan
 
   sections:
     Education:
@@ -62,12 +62,12 @@ cv:
           - "Contributed to an IoT service connecting vehicle fleets to the cloud for over-the-air software updates and data transfer."
 
       - company: FAIR Lab, Penn State
-        position: AI Researcher
+        position: Research Assistant
         location: State College, PA
         start_date: 2024-08
         end_date: 2024-12
         highlights:
-          - "Research assistant in the Foundations of Artificial Intelligence Research Lab under Dr. Hadi Hosseini, developing AI algorithms for multi-agent systems."
+          - "Foundations of Artificial Intelligence Research Lab, under Dr. Hadi Hosseini, developing AI algorithms for multi-agent systems."
           - "Bayesian analysis of voter behavior to predict ground truth rankings from partial information."
           - "Improving context alignment of large language models by enhancing the RLHF pipeline."
 
@@ -80,11 +80,12 @@ cv:
           - "Built dashboards giving insights on student enrollments for Penn State World Campus."
 
       - company: FAIR Lab, Penn State
-        position: Summer Research Assistant
+        position: Graduate Researcher (MS thesis research)
         location: State College, PA
-        start_date: 2023-05
-        end_date: 2023-08
+        start_date: 2023-01
+        end_date: 2024-08
         highlights:
+          - "Master's research advised by Dr. Hadi Hosseini; mentored by and in collaboration with Dr. Debmalya Mandal (University of Warwick). Part-time Summer Research Assistant, May to Aug 2023."
           - "Proposed two scalable variants of the Surprisingly Popular algorithm, improving the accuracy of ground-truth ranking recovery via crowdsourcing."
           - "Proposed a mathematical model of voter behavior and verified it by inferring parameters on real and simulated data with the No-U-Turn Sampler (an extension of Hamiltonian Monte Carlo)."
 
@@ -107,7 +108,7 @@ cv:
           - "CI/CD contact managing application deployment for ten teams."
 
       - company: Schneider Electric India
-        position: Research Intern
+        position: Summer Research Intern
         location: Bengaluru, India
         start_date: 2019-05
         end_date: 2019-07
@@ -120,7 +121,7 @@ cv:
         awarder: Penn State University
         date: 2025-05
         url: https://lnkd.in/p/gkKyb2_G
-        summary: Best Master's Thesis on an AI-related topic within Penn State, at the third annual Penn State AI Awards, judged by a panel of Penn State AI experts.
+        summary: Awarded at the third annual Penn State AI Awards, judged by a panel of Penn State AI experts.
 
       - title: NeurIPS 2024 Scholar Award
         awarder: Neural Information Processing Systems

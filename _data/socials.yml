@@ -4,7 +4,7 @@
 cv_pdf: /assets/pdf/Amrit_Puhan_CV.pdf # path to your CV PDF file
 email: amrit.puhan@outlook.com # your email address
 github_username: amrit19 # your GitHub user name
-linkedin_username: amrit-puhan-2623a5154 # your LinkedIn user name
+linkedin_username: amritpuhan # your LinkedIn user name
 openreview:
   logo: https://openreview.net/favicon.ico
   title: OpenReview

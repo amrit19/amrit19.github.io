@@ -7,7 +7,7 @@ category: masters @ Penn State
 related_publications: true
 ---
 
-**FAIR Lab, Penn State, 2023 to 2024**
+**FAIR Lab, Penn State, Jan 2023 to Dec 2024**
 
 Advised by Dr. Hadi Hosseini; mentored by and in collaboration with Dr. Debmalya Mandal.
 
@@ -17,4 +17,4 @@ When most of a crowd is misinformed, aggregating their votes amplifies the error
 - **When SP voting works (WWW 2025)** {% cite hosseini2025concentric %}. Proposed concentric mixtures of Mallows and Plackett-Luce models with any number of voter groups, identified expert, intermediate and non-expert groups in real data, and derived the conditions and number of samples under which SP voting recovers the true ranking with high probability.
 - **SP-Rank dataset (KDD 2026)** {% cite hosseini2026sprank %}. Released the first large public dataset that pairs ranked votes with predictions of others' votes: 12,384 datapoints from 1,152 participants in nine elicitation formats, with benchmarks for full and subset rank recovery and for modeling voter behavior. [Dataset and code on GitHub](https://github.com/amrit19/SP-Rank-Dataset).
 
-This work formed my MS thesis {% cite puhan2024thesis %}, which won Best Master's Thesis on an AI-related topic at the Penn State AI Awards. Implementations of the classical voting rules are on [GitHub](https://github.com/amrit19/Vote-Aggregation-Rules).
+This work formed my MS thesis {% cite puhan2024thesis %}, which won the Best MS Thesis Award in Artificial Intelligence at the Penn State AI Awards. Implementations of the classical voting rules are on [GitHub](https://github.com/amrit19/Vote-Aggregation-Rules).

@@ -9,7 +9,7 @@ last_name: Puhan
 contact_note: >
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Amrit Puhan, Software Development Engineer II at AWS Applied AI Solutions. Research on computational social choice, surprisingly popular voting and aligning AI with human preferences (NeurIPS 2024, WWW 2025, KDD 2026).
+  Amrit Puhan, Software Development Engineer II at AWS Applied AI Solutions. Research at the intersection of computational social choice and machine learning: rank aggregation, preference elicitation, Bayesian models of human judgment and multi-agent LLM systems (NeurIPS 2024, WWW 2025, KDD 2026).
 footer_text: >
   Built with <a href="https://github.com/alshedivat/al-folio">al-folio</a>. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: Amrit Puhan, AWS, Penn State, FAIR Lab, computational social choice, surprisingly popular voting, machine learning
