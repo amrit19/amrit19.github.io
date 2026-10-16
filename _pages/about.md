@@ -20,7 +20,7 @@ latest_posts:
   enabled: false
 ---
 
-I am a **Software Development Engineer II** in the Applied AI Solutions org at **Amazon Web Services (AWS)**. I have spent more than five years doing AI/ML research and about four years as a software engineer, working across cloud services, machine learning systems and web development.
+I am a **Software Development Engineer II** in the Applied AI Solutions org at **Amazon Web Services (AWS)** in Seattle, WA. I have spent more than five years doing AI/ML research and about four years as a software engineer, working across cloud services, machine learning systems and web development.
 
 ### research
 
