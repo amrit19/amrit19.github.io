@@ -6,7 +6,7 @@ nav: true
 nav_order: 6
 ---
 
-Outside work, I play soccer, go hiking with my wife and our dog, Oreo, and take photographs.
+Outside work, I go hiking with my wife and our dog, Oreo, play soccer and take photographs.
 
 <div class="beyond-photos">
   <div>
@@ -19,7 +19,7 @@ Outside work, I play soccer, go hiking with my wife and our dog, Oreo, and take 
     {% include figure.liquid path="assets/img/beyond-rainier.jpg" alt="Me hiking in the snow below Mount Rainier" caption="Mount Rainier" sizes="(max-width: 576px) 50vw, 300px" zoomable=true %}
   </div>
   <div>
-    {% capture neurips_caption %}<a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/054e9f9a286671ababa3213d6e59c1c2-Abstract-Conference.html">NeurIPS 2024</a>, Vancouver{% endcapture %}
+    {% capture neurips_caption %}<a href="https://neurips.cc/virtual/2024/poster/96149">NeurIPS 2024</a>, Vancouver{% endcapture %}
     {% include figure.liquid path="assets/img/beyond-neurips.jpg" alt="Me holding a poster tube in front of the NeurIPS banner" caption=neurips_caption sizes="(max-width: 576px) 50vw, 300px" zoomable=true %}
   </div>
   <div class="beyond-wide">
