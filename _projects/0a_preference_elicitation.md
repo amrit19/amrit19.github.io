@@ -12,4 +12,6 @@ Multi-agent LLM systems usually settle on a final answer by majority vote. That 
 
 The testbed runs multi-agent debate on verified math problems ([Big-Math-RL-Verified](https://huggingface.co/datasets/SynthLabsAI/Big-Math-RL-Verified)) with ten open models from the Llama, Phi and Qwen families, from 1.5B to 14B parameters. It covers homogeneous ensembles, ensembles with one strong and two weak agents, and cross-family ensembles, under three interaction modes: full debate, no debate, and sharing answers only. Majority and SP voting are compared on the same debates, with ordinal (rank-based) and cardinal (probability-based) versions of SP, and the analysis measures how often agents' predictions actually differ from their own votes, which is what SP relies on.
 
+Early results suggest that majority vote is hard to beat: capable models tend to predict that the group will agree with their own answer, which leaves SP little signal to work with. I am now testing settings designed to create that signal, such as ensembles that mix model families.
+
 The framework builds on multi-agent debate ([Du et al., 2023](https://arxiv.org/abs/2305.14325)) and multiagent fine-tuning ([Subramaniam et al., 2025](https://arxiv.org/abs/2501.05707)), and runs on Apple Silicon with MLX.

@@ -68,7 +68,7 @@ At AWS, I build AI systems over petabyte-scale automotive and industrial data. F
 .tl-key i{display:inline-block;width:.7rem;height:.7rem;border-radius:50%;margin-right:.3rem;vertical-align:-.05rem}
 </style>
 <div class="tl-grid">
-<a class="tl-card tl-top tl-edu" style="grid-column:1" href="{{ '/projects/' | relative_url }}"><div class="tl-when">2016 – 2020</div><div class="tl-org">NIT Rourkela</div><div class="tl-role">B.Tech, Computer Science</div><span class="tl-f">Computer Vision &amp; Machine Learning</span> for emotion recognition from human gait<div class="tl-pubs"><span>CVIP 2021</span><span>ICCIS 2019</span></div></a>
+<a class="tl-card tl-top tl-edu" style="grid-column:1" href="{{ '/projects/' | relative_url }}"><div class="tl-when">2016 – 2020</div><div class="tl-org">NIT Rourkela</div><div class="tl-role">B.Tech, Computer Science</div><span class="tl-f">Computer Vision &amp; Machine Learning</span> for cognitive state prediction from human gait<div class="tl-pubs"><span>CVIP 2021</span><span>ICCIS 2019</span></div></a>
 <div class="tl-node tl-edu" style="grid-column:1"><span></span></div>
 <a class="tl-card tl-bot tl-ind" style="grid-column:2" href="{{ '/cv/' | relative_url }}"><div class="tl-when">2019</div><div class="tl-org">Schneider Electric</div><div class="tl-role">Summer Intern</div><span class="tl-f">IoT, Mobile App &amp; Web Development</span> for a door-entry system</a>
 <div class="tl-node tl-ind" style="grid-column:2"><span></span></div>
