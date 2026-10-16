@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Breast cancer detection from mammograms
-description: Combining CNN image features with patient metadata to detect breast cancer in screening mammograms.
+description: Combining CNN and attention-based (DeiT) image models with patient metadata to detect breast cancer in screening mammograms.
 importance: 3
 category: masters @ Penn State
 ---
@@ -14,6 +14,6 @@ Built a two-step model that classifies screening mammograms from the Kaggle RSNA
 - **Metadata.** Compared XGBoost, random forests and gradient boosting on age, density and BI-RADS, handling missing values by dropping or median imputation, with 10-fold cross-validation. Gradient boosting reached an AUC-ROC of 0.81 with imputed data.
 - **Integration.** Added each CNN's predicted cancer probability as a feature in the metadata and trained the tree ensembles on the combined data, reaching an AUC-ROC of about 0.82.
 
-The metadata carried most of the signal, and the extreme class imbalance kept precision and recall low. Attention-based models on concatenated views and model-based imputation of missing density values were the proposed next steps.
+The metadata carried most of the signal, and the extreme class imbalance kept precision and recall low. Building on this, I also trained an attention-based vision transformer (DeiT) on the mammograms, and model-based imputation of missing density values was the other proposed next step.
 
 [Project report](https://drive.google.com/file/d/1AFnkoMJ5RzAbXro2cfKgALc56rRoCecU/view?usp=sharing)
