@@ -24,7 +24,7 @@ I am a **Software Development Engineer II** in the Applied AI Solutions org at *
 
 ### research
 
-My research asks how reliable collective judgments can be drawn from noisy, disagreeing people, and how that carries over to aligning AI systems with human preferences.
+My research lies at the intersection of computational social choice and machine learning, drawing on algorithm design and Bayesian statistics. I study how to recover the truth from many noisy, disagreeing judgments, especially when the experts are a minority and the majority is wrong. My work is equally theoretical and empirical: I design aggregation and elicitation algorithms with provable guarantees, build probabilistic and Bayesian models of human judgment (such as Mallows and Plackett-Luce ranking models), and test them through large-scale human-subject experiments and public datasets. More recently, I have been bringing these ideas to large language models, studying how multi-agent LLM systems should aggregate their answers at inference time and during fine-tuning, and how social choice can guide aligning AI with diverse human preferences.
 
 I completed my **MS in Informatics** (Data Science concentration) at [Penn State](https://ist.psu.edu/) in the [FAIR Lab](https://sites.google.com/view/fairailab), where I was fortunate to be advised by [Dr. Hadi Hosseini](https://faculty.ist.psu.edu/hadi/). I was also privileged to be mentored by and to collaborate with [Dr. Debmalya Mandal](https://debmandal.github.io/). My thesis, [_Recovering Ground Truth Rankings When the Majority Is Misinformed_](https://etda.libraries.psu.edu/catalog/29018avp6267), **won Best Master's Thesis on an AI-related topic at the Penn State AI Awards**. This work on _surprisingly popular_ voting led to publications at [NeurIPS 2024](https://proceedings.neurips.cc/paper_files/paper/2024/hash/054e9f9a286671ababa3213d6e59c1c2-Abstract-Conference.html), [WWW 2025](https://doi.org/10.1145/3696410.3714707) and [KDD 2026](https://doi.org/10.1145/3770855.3817549).
 
@@ -81,14 +81,6 @@ At AWS, I build AI systems over petabyte-scale automotive and industrial data. F
 </div>
 <div class="tl-key"><span><i style="background:var(--global-theme-color)"></i>Education &amp; research</span><span><i style="background:#2a8f84"></i>Industry</span></div>
 </div>
-
-More broadly, I am interested in:
-
-- Computational social choice: recovering ground truth from noisy, disagreeing preferences through rank aggregation and _surprisingly popular_ voting
-- Aligning AI with human preferences: preference elicitation and learning from human feedback for large language models
-- Multi-agent LLM systems, including inference-time preference elicitation and multi-agent fine-tuning
-- Probabilistic and Bayesian models of human behavior, such as Mallows and Plackett-Luce ranking models
-- Multi-modal search and retrieval over large-scale video and sensor data
 
 ## academic service
 
