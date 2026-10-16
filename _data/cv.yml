@@ -85,7 +85,7 @@ cv:
         start_date: 2023-01
         end_date: 2024-08
         highlights:
-          - "Master's research advised by Dr. Hadi Hosseini; mentored by and in collaboration with Dr. Debmalya Mandal (University of Warwick). Part-time Summer Research Assistant, May to Aug 2023."
+          - "Master's research advised by Dr. Hadi Hosseini; mentored by and in collaboration with Dr. Debmalya Mandal (University of Warwick)."
           - "Proposed two scalable variants of the Surprisingly Popular algorithm, improving the accuracy of ground-truth ranking recovery via crowdsourcing."
           - "Proposed a mathematical model of voter behavior and verified it by inferring parameters on real and simulated data with the No-U-Turn Sampler (an extension of Hamiltonian Monte Carlo)."
 
