@@ -210,10 +210,10 @@ h2:has(> a[href$="/publications/"])::after {
   color: var(--global-text-color-light);
 }
 
-/* "beyond work" page: photo gallery (three columns, two on phones; the soccer photo spans two) */
+/* "beyond work" page: photo gallery (four columns, two on phones; landscape photos span two) */
 .beyond-photos {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 0.75rem;
   margin: 1rem 0 1.5rem;
 }
@@ -226,7 +226,7 @@ h2:has(> a[href$="/publications/"])::after {
 .beyond-photos img {
   display: block;
   width: 100%;
-  height: clamp(200px, 30vw, 390px);
+  height: clamp(170px, 23vw, 290px);
   object-fit: cover;
   border-radius: 6px;
 }
