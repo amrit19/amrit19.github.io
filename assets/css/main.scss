@@ -242,3 +242,15 @@ button:focus-visible {
     height: 60vw;
   }
 }
+
+// News dates follow the career timeline colors: theme blue for research and
+// education, teal for industry (items whose text is wrapped in .news-ind).
+.news th {
+  color: var(--global-theme-color);
+}
+.news tr:has(.news-ind) th {
+  color: #1f7a70;
+}
+html[data-theme="dark"] .news tr:has(.news-ind) th {
+  color: #3fb8a9;
+}
