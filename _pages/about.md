@@ -32,7 +32,7 @@ latest_posts:
 <div class="dm" aria-label="Areas I work in">
 <div class="dm-ring dm-ring-res"></div>
 <div class="dm-ring dm-ring-ind"></div>
-<div class="dm-cell dm-c1"><div class="dm-h dm-res">research</div><span class="dm-res">Computational Social Choice</span><span class="dm-res">Crowdsourcing</span><span class="dm-res">Preference Learning</span><span class="dm-res">Multi-Agent LLMs</span><span class="dm-res">AI Alignment</span><span class="dm-res">Computer Vision</span></div>
+<div class="dm-cell dm-c1"><div class="dm-h dm-res">research</div><span class="dm-res">Computational Social Choice</span><span class="dm-res">Bayesian Learning</span><span class="dm-res">Preference Aggregation</span><span class="dm-res">Multi-Agent LLMs</span><span class="dm-res">AI Alignment</span><span class="dm-res">Computer Vision</span></div>
 <div class="dm-cell dm-c2"><div class="dm-h dm-both">both</div><span class="dm-both">Machine Learning</span><span class="dm-both">Deep Learning</span><span class="dm-both">Probabilistic Modeling</span><span class="dm-both">Information Retrieval</span></div>
 <div class="dm-cell dm-c3"><div class="dm-h dm-ind">industry</div><span class="dm-ind">Multi-Modal &amp; Agentic Search</span><span class="dm-ind">Time Series Anomaly Detection</span><span class="dm-ind">Cloud &amp; IoT Systems</span><span class="dm-ind">Web Development &amp; CI/CD</span></div>
 </div>
