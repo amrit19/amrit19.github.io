@@ -29,7 +29,7 @@ latest_posts:
   enabled: false
 ---
 
-I am a **Software Development Engineer II** in the Applied AI Solutions org at **Amazon Web Services (AWS)** in Seattle, building AI over petabyte-scale driving and industrial data.
+I am a **Software Development Engineer II** in the Applied AI Solutions org at **Amazon Web Services (AWS)** in Seattle, building video search over petabyte-scale driving data and time series anomaly detection on industrial data.
 
 Alongside my work at AWS, I do research in computational social choice and machine learning, driven by one question: how do you find the right answer when most people get it wrong? I study voting methods that recover the true ranking from noisy, disagreeing crowdsourced judgments, even when experts are in minority. This work began with my **MS in Informatics** at [Penn State](https://ist.psu.edu/) in the [FAIR Lab](https://faculty.ist.psu.edu/hadi/lab.html), where I was advised by [Dr. Hadi Hosseini](https://faculty.ist.psu.edu/hadi/) and mentored by [Dr. Debmalya Mandal](https://debmandal.github.io/). My thesis, [_Recovering Ground Truth Rankings When the Majority Is Misinformed_](https://etda.libraries.psu.edu/catalog/29018avp6267), won the **Best MS Thesis Award in Artificial Intelligence**, and the work was published at **NeurIPS**, **WWW** and **KDD**. Before that, I earned my **B.Tech in Computer Science and Engineering** from [NIT Rourkela](https://www.nitrkl.ac.in/), doing computer vision research with [Dr. Anup Nandy](https://www.nitrkl.ac.in/CS/~nandya/).
 
