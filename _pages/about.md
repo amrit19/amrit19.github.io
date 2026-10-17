@@ -8,7 +8,7 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
 
-selected_papers: false # selected papers are placed between research and industry below
+selected_papers: false # selected papers are placed after the industry cards below
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -20,27 +20,9 @@ latest_posts:
   enabled: false
 ---
 
-I am a **Software Development Engineer II** in the Applied AI Solutions org at **Amazon Web Services (AWS)** in Seattle, WA. I have spent more than five years doing AI/ML research and about four years as a software engineer, working across cloud services, machine learning systems and web development.
+How do you find the right answer when most people get it wrong? My research tackles it through voting and crowdsourcing, drawing on computational social choice and machine learning, with papers at **NeurIPS**, **WWW** and **KDD**. My MS thesis on it won the **Best MS Thesis Award in Artificial Intelligence** at Penn State.
 
-### research
-
-My research lies at the intersection of computational social choice and machine learning, drawing on algorithm design and Bayesian statistics. I study how to recover the truth from many noisy, disagreeing judgments, especially when the experts are a minority and the majority is wrong. My work is equally theoretical and empirical: I design aggregation and elicitation algorithms with provable guarantees, build probabilistic and Bayesian models of human judgment (such as Mallows and Plackett-Luce ranking models), and test them through large-scale human-subject experiments and public datasets. More recently, I have been bringing these ideas to large language models, studying how multi-agent LLM systems should aggregate their answers at inference time and during fine-tuning, and how social choice can guide aligning AI with diverse human preferences.
-
-I completed my **MS in Informatics** (Data Science concentration) at [Penn State](https://ist.psu.edu/) in the [FAIR Lab](https://sites.google.com/view/fairailab), where I was fortunate to be advised by [Dr. Hadi Hosseini](https://faculty.ist.psu.edu/hadi/). I was also privileged to be mentored by and to collaborate with [Dr. Debmalya Mandal](https://debmandal.github.io/). My thesis, [_Recovering Ground Truth Rankings When the Majority Is Misinformed_](https://etda.libraries.psu.edu/catalog/29018avp6267), **won the Best MS Thesis Award in Artificial Intelligence at the Penn State AI Awards**. This work on _surprisingly popular_ voting led to publications at [NeurIPS 2024](https://proceedings.neurips.cc/paper_files/paper/2024/hash/054e9f9a286671ababa3213d6e59c1c2-Abstract-Conference.html), [WWW 2025](https://doi.org/10.1145/3696410.3714707) and [KDD 2026](https://doi.org/10.1145/3770855.3817549).
-
-Before that, I earned my **B.Tech in Computer Science and Engineering** from [NIT Rourkela](https://www.nitrkl.ac.in/), where I did **computer vision and machine learning research** in the Intelligent Computing and Computer Vision group with [Dr. Anup Nandy](https://www.nitrkl.ac.in/CS/~nandya/). For my undergraduate thesis, [_Human Gait as a Cognitive State Predictor_]({{ '/projects/4_gait/' | relative_url }}), I calibrated eight Kinect sensors to reconstruct gait in 3D, then trained deep learning models to predict cognitive state from it, using EEG and IMU sensors as ground truth. The calibration work was published at **CVIP 2021**. Separately, a course project on webcam-based hand-gesture passwords became a paper at **ICCIS 2019**.
-
-### selected publications
-
-<p class="pub-key"><sup>*</sup> Lead author; authors listed alphabetically.</p>
-
-<div class="publications">
-{% bibliography --group_by none --query @*[selected=true]* %}
-</div>
-
-### industry
-
-At AWS, I build AI systems over petabyte-scale automotive and industrial data. For autonomous driving (ADAS/AV) teams, I work on a **multi-modal video search system** that helps developers surface rare edge cases across video, sensor and annotation data using natural language queries. In the industrial space, I work on **time series anomaly detection** for predictive maintenance of industrial equipment. Before AWS, I built front-end applications for SAP SuccessFactors, an enterprise HR cloud product, at SAP Labs India. Before that, as a summer research intern at Schneider Electric, I built an IoT door-entry system that could be unlocked from phones, laptops and other devices on any operating system, through mobile and web apps, with real-time text, audio and video calling.
+By day, I am a **Software Development Engineer II** in the Applied AI Solutions org at **Amazon Web Services (AWS)** in Seattle, building AI over petabyte-scale driving and industrial data. I have spent more than five years doing AI/ML research and about four years as a software engineer, across cloud services, machine learning systems and web development.
 
 <div class="quick-links">
   <a href="mailto:amrit.puhan@outlook.com"><i class="fa-solid fa-envelope"></i> Email</a>
@@ -92,6 +74,53 @@ html[data-theme="dark"] .tl-key .tl-key-award{border-color:#e0b04a;background:rg
 <div class="tl-node tl-ind" style="grid-column:5"><span></span></div>
 </div>
 <div class="tl-key"><span><i style="background:var(--global-theme-color)"></i>Education &amp; research</span><span><i class="tl-ind" style="background:var(--c)"></i>Industry</span><span><i class="tl-key-pub"></i>Publication</span><span><i class="tl-key-award"></i>Award</span></div>
+</div>
+
+<style>
+.glance{margin:1rem 0 1.9rem}
+.glance-label{font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--global-text-color-light);margin-bottom:.5rem}
+.glance-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.6rem}
+.glance-card{border:1px solid var(--global-divider-color);border-top:3px solid var(--c);border-radius:.6rem;padding:.7rem .75rem;background:var(--global-bg-color)}
+.glance-big{font-size:1.02rem;font-weight:800;line-height:1.2;color:var(--c)}
+.glance-small{font-size:.78rem;line-height:1.35;color:var(--global-text-color-light);margin-top:.35rem}
+.glance-res{--c:var(--global-theme-color)}.glance-ind{--c:#1f7a70}html[data-theme="dark"] .glance-ind{--c:#3fb8a9}
+@media (max-width:760px){.glance-grid{grid-template-columns:1fr 1fr}}
+</style>
+
+## research &amp; industry
+
+I study how to recover the truth from many noisy, disagreeing judgments, especially when the experts are a minority and the majority is wrong. My work combines computational social choice and machine learning, and is equally theoretical and empirical. At Penn State's [FAIR Lab](https://sites.google.com/view/fairailab), advised by [Dr. Hadi Hosseini](https://faculty.ist.psu.edu/hadi/) and mentored by [Dr. Debmalya Mandal](https://debmandal.github.io/), this became my [MS thesis](https://etda.libraries.psu.edu/catalog/29018avp6267) on _surprisingly popular_ voting. Now I am bringing these ideas to multi-agent LLM systems.
+
+Before that, at [NIT Rourkela](https://www.nitrkl.ac.in/), I calibrated eight Kinect sensors (CVIP 2021) to [predict cognitive state from how people walk]({{ '/projects/4_gait/' | relative_url }}), and built webcam hand-gesture passwords (ICCIS 2019).
+
+<div class="glance glance-res">
+<div class="glance-label">research at a glance</div>
+<div class="glance-grid">
+<div class="glance-card"><div class="glance-big">Computational Social Choice</div><div class="glance-small">voting methods that recover the truth when the majority is wrong</div></div>
+<div class="glance-card"><div class="glance-big">Bayesian Modeling</div><div class="glance-small">Mallows and Plackett-Luce models of how people rank</div></div>
+<div class="glance-card"><div class="glance-big">Multi-Agent LLMs</div><div class="glance-small">how LLM agents should combine their answers</div></div>
+<div class="glance-card"><div class="glance-big">AI Alignment</div><div class="glance-small">social choice for aligning AI with diverse human preferences</div></div>
+</div>
+</div>
+
+At AWS, I build AI over petabyte-scale automotive and industrial data: multi-modal video search that helps ADAS/AV developers find rare edge cases with natural language queries, and time series anomaly detection for predictive maintenance. Before AWS, I built front-end applications for SAP SuccessFactors at SAP Labs India, and a door-entry system at Schneider Electric that could be unlocked from phones, laptops and other devices on any operating system.
+
+<div class="glance glance-ind">
+<div class="glance-label">industry at a glance</div>
+<div class="glance-grid">
+<div class="glance-card"><div class="glance-big">Information Retrieval</div><div class="glance-small">semantic, multi-modal and agentic search over petabyte-scale video, sensor and annotation data for ADAS/AV teams, AWS</div></div>
+<div class="glance-card"><div class="glance-big">Deep Learning &amp; Probabilistic Modeling</div><div class="glance-small">unsupervised time series anomaly detection for predictive maintenance of industrial equipment, AWS</div></div>
+<div class="glance-card"><div class="glance-big">Cloud &amp; IoT Systems</div><div class="glance-small">an IoT service connecting vehicle fleets to the cloud (AWS), and a cross-device IoT door-entry system (Schneider Electric)</div></div>
+<div class="glance-card"><div class="glance-big">Web Development &amp; CI/CD</div><div class="glance-small">front-end apps for SAP SuccessFactors, and CI/CD for ten teams, SAP Labs India</div></div>
+</div>
+</div>
+
+### selected publications
+
+<p class="pub-key"><sup>*</sup> Lead author; authors listed alphabetically.</p>
+
+<div class="publications">
+{% bibliography --group_by none --query @*[selected=true]* %}
 </div>
 
 ## academic service
