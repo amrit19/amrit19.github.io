@@ -89,7 +89,7 @@ html[data-theme="dark"] .tl-key .tl-key-award{border-color:#e0b04a;background:rg
 
 ## research &amp; industry
 
-I study how to recover the truth from many noisy, disagreeing judgments, especially when the experts are a minority and the majority is wrong. My work combines computational social choice and machine learning, and is equally theoretical and empirical. At Penn State's [FAIR Lab](https://sites.google.com/view/fairailab), advised by [Dr. Hadi Hosseini](https://faculty.ist.psu.edu/hadi/) and mentored by [Dr. Debmalya Mandal](https://debmandal.github.io/), this became my [MS thesis](https://etda.libraries.psu.edu/catalog/29018avp6267) on _surprisingly popular_ voting. Now I am bringing these ideas to multi-agent LLM systems.
+I study how to recover the truth from many noisy, disagreeing judgments, especially when the experts are a minority and the majority is wrong. My work combines computational social choice and machine learning, and is equally theoretical and empirical. At Penn State's [FAIR Lab](https://faculty.ist.psu.edu/hadi/lab.html), advised by [Dr. Hadi Hosseini](https://faculty.ist.psu.edu/hadi/) and mentored by [Dr. Debmalya Mandal](https://debmandal.github.io/), this became my [MS thesis](https://etda.libraries.psu.edu/catalog/29018avp6267) on _surprisingly popular_ voting. Now I am bringing these ideas to multi-agent LLM systems.
 
 Before that, at [NIT Rourkela](https://www.nitrkl.ac.in/), I calibrated eight Kinect sensors (CVIP 2021) to [predict cognitive state from how people walk]({{ '/projects/4_gait/' | relative_url }}), and built webcam hand-gesture passwords (ICCIS 2019).
 

@@ -20,7 +20,7 @@ cv:
         start_date: 2022-08
         end_date: 2024-08
         highlights:
-          - "Advised by Dr. Hadi Hosseini."
+          - "Advised by [Dr. Hadi Hosseini](https://faculty.ist.psu.edu/hadi/)."
           - "Thesis: [Recovering Ground Truth Rankings When the Majority Is Misinformed](https://etda.libraries.psu.edu/catalog/29018avp6267). **Best MS Thesis Award in Artificial Intelligence.**"
 
       - studyType: National Institute of Technology, Rourkela
@@ -65,7 +65,7 @@ cv:
         start_date: 2023-01
         end_date: 2024-12
         highlights:
-          - "Foundations of Artificial Intelligence Research Lab. Master's research advised by Dr. Hadi Hosseini; mentored by and in collaboration with Dr. Debmalya Mandal (University of Warwick)."
+          - "[Foundations of Artificial Intelligence Research (FAIR) Lab](https://faculty.ist.psu.edu/hadi/lab.html). Master's research advised by [Dr. Hadi Hosseini](https://faculty.ist.psu.edu/hadi/); mentored by and in collaboration with [Dr. Debmalya Mandal](https://debmandal.github.io/) (University of Warwick)."
           - "Designed scalable Surprisingly Popular (SP) voting algorithms that recover ground-truth rankings from partial preferences when experts are a minority. The best variant (Partial-SP) recovers the true ranking with a Kendall-Tau correlation about 300% higher than Copeland on votes alone (about 0.8 vs 0.2). (NeurIPS 2024)"
           - "Ran a crowdsourcing study with 432 participants on Amazon MTurk across three domains (geography, movies, paintings) of 36 alternatives each."
           - "Modeled voter behavior as concentric mixtures of Mallows and Plackett-Luce models, inferring parameters with Bayesian MCMC (No-U-Turn Sampler), and derived when SP voting recovers the ground truth with high probability. (NeurIPS 2024, WWW 2025)"

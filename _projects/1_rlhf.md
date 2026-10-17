@@ -6,7 +6,7 @@ importance: 1
 category: masters @ Penn State
 ---
 
-**FAIR Lab, Penn State, Nov 2023 to Aug 2024**
+**[FAIR Lab](https://faculty.ist.psu.edu/hadi/lab.html), Penn State, Nov 2023 to Aug 2024**
 
 In reinforcement learning from human feedback (RLHF), a reward model learns from preference labels that are usually aggregated from many annotators by majority vote. If most annotators are wrong, the reward model learns the wrong preferences, and the language model fine-tuned against it follows them.
 
