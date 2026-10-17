@@ -32,7 +32,7 @@ Before that, I earned my **B.Tech in Computer Science and Engineering** from [NI
 
 ### selected publications
 
-<p class="pub-key"><sup>*</sup> First author; authors listed alphabetically.</p>
+<p class="pub-key"><sup>*</sup> Lead author; authors listed alphabetically.</p>
 
 <div class="publications">
 {% bibliography --group_by none --query @*[selected=true]* %}
