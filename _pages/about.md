@@ -40,7 +40,7 @@ Before that, I earned my **B.Tech in Computer Science and Engineering** from [NI
 
 ### industry
 
-At AWS, I build AI systems over petabyte-scale automotive and industrial data. For autonomous driving (ADAS/AV) teams, I work on a **multi-modal video search system** that helps developers surface rare edge cases across video, sensor and annotation data using natural language queries. In the industrial space, I work on **time series anomaly detection** for predictive maintenance of industrial equipment. Before AWS, I built front-end applications for SAP SuccessFactors, an enterprise HR cloud product, at SAP Labs India. Before that, as a summer research intern at Schneider Electric, I built a prototype IoT door-entry system with real-time text, audio and video calling.
+At AWS, I build AI systems over petabyte-scale automotive and industrial data. For autonomous driving (ADAS/AV) teams, I work on a **multi-modal video search system** that helps developers surface rare edge cases across video, sensor and annotation data using natural language queries. In the industrial space, I work on **time series anomaly detection** for predictive maintenance of industrial equipment. Before AWS, I built front-end applications for SAP SuccessFactors, an enterprise HR cloud product, at SAP Labs India. Before that, as a summer research intern at Schneider Electric, I built an IoT door-entry system that could be unlocked from phones, laptops and other devices on any operating system, through mobile and web apps, with real-time text, audio and video calling.
 
 <div class="quick-links">
   <a href="mailto:amrit.puhan@outlook.com"><i class="fa-solid fa-envelope"></i> Email</a>

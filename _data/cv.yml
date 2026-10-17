@@ -105,7 +105,7 @@ cv:
         location: Bengaluru, India
         date: 2019-07
         highlights:
-          - "Built a prototype IoT door-entry system with real-time text, audio and video communication, reducing latency by 83.3% versus existing standards."
+          - "Built an IoT door-entry system that could be unlocked from phones, laptops and other devices on any operating system through mobile and web apps, with real-time text, audio and video communication, reducing latency by 83.3% versus existing standards."
           - "Developed web and mobile (Android and iOS) support for the suite."
 
     Awards:
