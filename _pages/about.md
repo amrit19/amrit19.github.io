@@ -111,7 +111,7 @@ html[data-theme="dark"] .tl-key .tl-key-award{border-color:#e0b04a;background:rg
 
 </div>
 
-## research
+## academia
 
 Standard voting rules work when most people are more likely right than wrong. When experts are in minority, simply aggregating opinions, by any rule, cannot recover the truth. My research builds voting methods that still recover the true ranking in this setting. As a graduate researcher in the [FAIR Lab](https://faculty.ist.psu.edu/hadi/lab.html) at [Penn State](https://ist.psu.edu/), I worked on three questions.
 
@@ -137,12 +137,12 @@ As an undergraduate researcher in the Intelligent Computing and Computer Vision 
 {% bibliography --group_by none --query @*[selected=true]* %}
 </div>
 
-## industry
-
-At AWS, I build AI over petabyte-scale automotive and industrial data: multi-modal video search that helps ADAS/AV developers find rare edge cases with natural language queries, and time series anomaly detection for predictive maintenance. Before AWS, I built front-end applications for SAP SuccessFactors at SAP Labs India, and a door-entry system at Schneider Electric that could be unlocked from phones, laptops and other devices on any operating system.
-
-## academic service
+### academic service
 
 - Reviewer, internal Amazon science conference
 - Reviewer, KDD 2026, Datasets and Benchmarks Track
 - Reviewer, The ACM Web Conference (WWW) 2025, Main Track
+
+## industry
+
+At AWS, I build AI over petabyte-scale automotive and industrial data: multi-modal video search that helps ADAS/AV developers find rare edge cases with natural language queries, and time series anomaly detection for predictive maintenance. Before AWS, I built front-end applications for SAP SuccessFactors at SAP Labs India, and a door-entry system at Schneider Electric that could be unlocked from phones, laptops and other devices on any operating system.
