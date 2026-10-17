@@ -8,13 +8,13 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # selected papers are placed between research and industry below
 social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
@@ -30,9 +30,17 @@ I completed my **MS in Informatics** (Data Science concentration) at [Penn State
 
 Before that, I earned my **B.Tech in Computer Science and Engineering** from [NIT Rourkela](https://www.nitrkl.ac.in/), where I did **computer vision and machine learning research** in the Intelligent Computing and Computer Vision group with [Dr. Anup Nandy](https://www.nitrkl.ac.in/CS/~nandya/). For my undergraduate thesis, [_Human Gait as a Cognitive State Predictor_]({{ '/projects/4_gait/' | relative_url }}), I calibrated eight Kinect sensors to reconstruct gait in 3D, then trained deep learning models to predict cognitive state from it, using EEG and IMU sensors as ground truth. The calibration work was published at **CVIP 2021**. Separately, a course project on webcam-based hand-gesture passwords became a paper at **ICCIS 2019**.
 
+### selected publications
+
+<p class="pub-key"><sup>*</sup> First author; authors listed alphabetically.</p>
+
+<div class="publications">
+{% bibliography --group_by none --query @*[selected=true]* %}
+</div>
+
 ### industry
 
-At AWS, I build AI systems over petabyte-scale automotive and industrial data. For autonomous driving (ADAS/AV) teams, I work on a **multi-modal video search system** that helps developers surface rare edge cases across video, sensor and annotation data using natural language queries. In the industrial space, I work on **time series anomaly detection** for predictive maintenance of industrial equipment. Before AWS, I built web applications for a next-generation payroll product at SAP Labs India, and interned at Schneider Electric on an IoT door-entry system.
+At AWS, I build AI systems over petabyte-scale automotive and industrial data. For autonomous driving (ADAS/AV) teams, I work on a **multi-modal video search system** that helps developers surface rare edge cases across video, sensor and annotation data using natural language queries. In the industrial space, I work on **time series anomaly detection** for predictive maintenance of industrial equipment. Before AWS, I built front-end applications for SAP SuccessFactors, an enterprise HR cloud product, at SAP Labs India. Before that, as a summer research intern at Schneider Electric, I built a prototype IoT door-entry system with real-time text, audio and video calling.
 
 <div class="quick-links">
   <a href="mailto:amrit.puhan@outlook.com"><i class="fa-solid fa-envelope"></i> Email</a>
@@ -62,24 +70,28 @@ At AWS, I build AI systems over petabyte-scale automotive and industrial data. F
 .tl-role{color:var(--global-text-color-light);font-size:.74rem;margin-bottom:.35rem}
 .tl-f{font-weight:700}
 .tl-pubs{margin-top:.4rem;display:flex;flex-wrap:wrap;gap:.25rem}
-.tl-pubs span{font-size:.66rem;font-weight:600;padding:.05rem .4rem;border-radius:1rem;background:var(--c);color:#fff}
-.tl-edu{--c:var(--global-theme-color)}.tl-ind{--c:#2a8f84}
+.tl-pubs span{font-size:.66rem;font-weight:600;padding:.05rem .45rem;border-radius:1rem;border:1px solid var(--global-theme-color);color:var(--global-theme-color);background:transparent}
+.tl-pubs .tl-award{border-color:#8a5a00;background:#fff3d6;color:#6b4500}
+html[data-theme="dark"] .tl-pubs .tl-award{border-color:#e0b04a;background:rgba(224,176,74,.16);color:#f2cb73}
+.tl-edu{--c:var(--global-theme-color)}.tl-ind{--c:#1f7a70}html[data-theme="dark"] .tl-ind{--c:#3fb8a9}
 .tl-key{display:flex;gap:1rem;font-size:.72rem;color:var(--global-text-color-light);margin-top:.6rem}
 .tl-key i{display:inline-block;width:.7rem;height:.7rem;border-radius:50%;margin-right:.3rem;vertical-align:-.05rem}
+.tl-key .tl-key-pub{border:1px solid var(--global-theme-color);background:transparent}.tl-key .tl-key-award{border:1px solid #8a5a00;background:#fff3d6}
+html[data-theme="dark"] .tl-key .tl-key-award{border-color:#e0b04a;background:rgba(224,176,74,.16)}
 </style>
 <div class="tl-grid">
 <a class="tl-card tl-top tl-edu" style="grid-column:1" href="{{ '/projects/' | relative_url }}"><div class="tl-when">2016 – 2020</div><div class="tl-org">NIT Rourkela</div><div class="tl-role">B.Tech, Computer Science &amp; Engineering</div><span class="tl-f">Computer Vision &amp; Machine Learning</span> for cognitive state prediction from human gait<div class="tl-pubs"><span>CVIP 2021</span><span>ICCIS 2019</span></div></a>
 <div class="tl-node tl-edu" style="grid-column:1"><span></span></div>
 <a class="tl-card tl-bot tl-ind" style="grid-column:2" href="{{ '/cv/' | relative_url }}"><div class="tl-when">2019</div><div class="tl-org">Schneider Electric</div><div class="tl-role">Summer Research Intern</div><span class="tl-f">IoT, Mobile App &amp; Web Development</span> for a door-entry system</a>
 <div class="tl-node tl-ind" style="grid-column:2"><span></span></div>
-<a class="tl-card tl-top tl-ind" style="grid-column:3" href="{{ '/cv/' | relative_url }}"><div class="tl-when">2020 – 2022</div><div class="tl-org">SAP Labs India</div><div class="tl-role">Associate Software Developer</div><span class="tl-f">Web Development</span> for a next-generation payroll application</a>
+<a class="tl-card tl-top tl-ind" style="grid-column:3" href="{{ '/cv/' | relative_url }}"><div class="tl-when">2020 – 2022</div><div class="tl-org">SAP Labs India</div><div class="tl-role">Associate Software Developer</div><span class="tl-f">Front-End &amp; CI/CD</span> for SAP SuccessFactors, an enterprise HR cloud product</a>
 <div class="tl-node tl-ind" style="grid-column:3"><span></span></div>
-<a class="tl-card tl-bot tl-edu" style="grid-column:4" href="{{ '/publications/' | relative_url }}"><div class="tl-when">2022 – 2024</div><div class="tl-org">Penn State · FAIR Lab</div><div class="tl-role">MS, Informatics</div><span class="tl-f">Bayesian Statistics, Algorithm Design &amp; Multi-Agent AI</span> for voting systems of humans and LLMs<div class="tl-pubs"><span>NeurIPS 2024</span><span>WWW 2025</span><span>KDD 2026</span><span>Best MS Thesis Award in AI</span></div></a>
+<a class="tl-card tl-bot tl-edu" style="grid-column:4" href="{{ '/publications/' | relative_url }}"><div class="tl-when">2022 – 2024</div><div class="tl-org">Penn State · FAIR Lab</div><div class="tl-role">MS, Informatics</div><span class="tl-f">Bayesian Statistics, Algorithm Design &amp; Multi-Agent AI</span> for voting systems of humans and LLMs<div class="tl-pubs"><span>NeurIPS 2024</span><span>WWW 2025</span><span>KDD 2026</span><span class="tl-award">Best MS Thesis Award in AI</span></div></a>
 <div class="tl-node tl-edu" style="grid-column:4"><span></span></div>
-<a class="tl-card tl-top tl-ind" style="grid-column:5" href="{{ '/cv/' | relative_url }}"><div class="tl-when">2024 – now</div><div class="tl-org">Amazon Web Services</div><div class="tl-role">SDE II, Applied AI</div><span class="tl-f">Deep Learning, Information Retrieval &amp; Statistical Learning</span> for video search for ADAS/autonomous driving and anomaly detection for predictive maintenance</a>
+<a class="tl-card tl-top tl-ind" style="grid-column:5" href="{{ '/cv/' | relative_url }}"><div class="tl-when">2024 – now</div><div class="tl-org">Amazon Web Services</div><div class="tl-role">SDE (2024), SDE II (2026), Applied AI Solutions</div><span class="tl-f">Multi-Modal Video Search &amp; Anomaly Detection</span> over petabyte-scale automotive and industrial data, for ADAS/AV teams and predictive maintenance</a>
 <div class="tl-node tl-ind" style="grid-column:5"><span></span></div>
 </div>
-<div class="tl-key"><span><i style="background:var(--global-theme-color)"></i>Education &amp; research</span><span><i style="background:#2a8f84"></i>Industry</span></div>
+<div class="tl-key"><span><i style="background:var(--global-theme-color)"></i>Education &amp; research</span><span><i class="tl-ind" style="background:var(--c)"></i>Industry</span><span><i class="tl-key-pub"></i>Publication</span><span><i class="tl-key-award"></i>Award</span></div>
 </div>
 
 ## academic service

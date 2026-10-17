@@ -13,31 +13,28 @@ cv:
 
   sections:
     Education:
-      - institution: The Pennsylvania State University
+      - studyType: The Pennsylvania State University
         location: State College, PA
         url: https://ist.psu.edu/
-        area: Informatics (Data Science concentration)
-        studyType: MS
+        institution: MS, Informatics (Data Science concentration)
         start_date: 2022-08
         end_date: 2024-08
         highlights:
           - "Advised by Dr. Hadi Hosseini."
-          - "Thesis: [Recovering Ground Truth Rankings When the Majority Is Misinformed](https://etda.libraries.psu.edu/catalog/29018avp6267). Best MS Thesis Award in Artificial Intelligence."
+          - "Thesis: [Recovering Ground Truth Rankings When the Majority Is Misinformed](https://etda.libraries.psu.edu/catalog/29018avp6267). **Best MS Thesis Award in Artificial Intelligence.**"
 
-      - institution: National Institute of Technology, Rourkela
+      - studyType: National Institute of Technology, Rourkela
         location: Rourkela, India
-        area: Computer Science and Engineering
-        studyType: B.Tech
+        institution: B.Tech, Computer Science and Engineering
         start_date: 2016-07
         end_date: 2020-05
         highlights:
           - "Advised by Dr. Anup Nandy. Undergraduate thesis: Human Gait as a Cognitive State Predictor, in the Intelligent Computing and Computer Vision research group."
           - "Student Mentor, Institute Counselling Services (2018 to 2020). Member of the institute football team."
 
-      - institution: St. Paul's School, Rourkela
+      - studyType: St. Paul's School, Rourkela
         location: Rourkela, India
-        area: ISC (Class XII), 96.8%; ICSE (Class X), 97.2%
-        studyType: School
+        institution: ISC (Class XII), 96.8%; ICSE (Class X), 97.2%
         start_date: 2003
         end_date: 2016
         highlights:
@@ -62,14 +59,18 @@ cv:
           - "Contributed to an IoT service connecting vehicle fleets to the cloud for over-the-air software updates and data transfer."
 
       - company: FAIR Lab, Penn State
-        position: Research Assistant
+        position: Graduate Researcher, then Research Assistant (Aug to Dec 2024)
         location: State College, PA
-        start_date: 2024-08
+        start_date: 2023-01
         end_date: 2024-12
         highlights:
-          - "Foundations of Artificial Intelligence Research Lab, under Dr. Hadi Hosseini, developing AI algorithms for multi-agent systems."
-          - "Bayesian analysis of voter behavior to predict ground truth rankings from partial information."
-          - "Improving context alignment of large language models by enhancing the RLHF pipeline."
+          - "Foundations of Artificial Intelligence Research Lab. Master's research advised by Dr. Hadi Hosseini; mentored by and in collaboration with Dr. Debmalya Mandal (University of Warwick)."
+          - "Designed scalable Surprisingly Popular (SP) voting algorithms that recover ground-truth rankings from partial preferences when experts are a minority. The best variant (Partial-SP) reaches a Kendall-Tau correlation of about 0.8 with the true ranking, against about 0.2 for Copeland on votes alone. (NeurIPS 2024)"
+          - "Ran a crowdsourcing study with 432 participants on Amazon MTurk across three domains (geography, movies, paintings) of 36 alternatives each."
+          - "Modeled voter behavior as concentric mixtures of Mallows and Plackett-Luce models, inferring parameters with Bayesian MCMC (No-U-Turn Sampler), and derived when SP voting recovers the ground truth with high probability. (NeurIPS 2024, WWW 2025)"
+          - "Released SP-Rank, a public dataset of 12,384 datapoints from 1,152 participants across 9 elicitation formats, with benchmarks for rank recovery and voter modeling. (KDD 2026)"
+          - "Used SP voting to label RLHF preference data with weak and strong language models, improving label accuracy by 9% on average over standard voting rules in preliminary experiments. (MS thesis)"
+          - "Fine-tuned LLMs for multiple-choice QA with LoRA, quantization and PEFT, ranking 6th on the AI2 SWAG leaderboard with 90.98% accuracy (2024)."
 
       - company: Penn State Organizational Effectiveness
         position: Graduate Assistant (part-time)
@@ -77,25 +78,16 @@ cv:
         start_date: 2023-08
         end_date: 2024-08
         highlights:
-          - "Built dashboards giving insights on student enrollments for Penn State World Campus."
-
-      - company: FAIR Lab, Penn State
-        position: Graduate Researcher (MS thesis research)
-        location: State College, PA
-        start_date: 2023-01
-        end_date: 2024-08
-        highlights:
-          - "Master's research advised by Dr. Hadi Hosseini; mentored by and in collaboration with Dr. Debmalya Mandal (University of Warwick)."
-          - "Proposed two scalable variants of the Surprisingly Popular algorithm, improving the accuracy of ground-truth ranking recovery via crowdsourcing."
-          - "Proposed a mathematical model of voter behavior and verified it by inferring parameters on real and simulated data with the No-U-Turn Sampler (an extension of Hamiltonian Monte Carlo)."
+          - "Built Power BI dashboards giving Penn State World Campus insights into student enrollment."
+          - "Created a reusable dashboard template that cut development time by 60% and improved tracked enrollment KPIs by 25%."
 
       - company: Penn State College of IST
-        position: Instructional Assistant (part-time)
+        position: Instructional Assistant (part-time), Spring 2023
         location: State College, PA
-        start_date: 2023-01
-        end_date: 2023-05
+        date: 2023-05
         highlights:
-          - "IST 261: tutored, graded, and taught industry-standard coding practices using MVC in Java."
+          - "IST 261: coached a 20+ student undergraduate class in object-oriented design, MVC architecture and debugging, through office hours and one-on-one assignment help."
+          - "Delivered a lecture on assignment design and graded with written feedback."
 
       - company: SAP Labs India
         position: Associate Software Developer
@@ -105,15 +97,14 @@ cv:
         highlights:
           - "Developed five front-end applications for SAP SuccessFactors, an enterprise B2B cloud application."
           - "Quality Analyst for one year: oversaw quality standards for six projects and coordinated the SAP SuccessFactors Quarterly Testing Event twice."
-          - "CI/CD contact managing application deployment for ten teams."
+          - "CI/CD contact for ten teams, automating microservice deployments with Jenkins and shipping 40+ applications across five countries."
 
       - company: Schneider Electric India
-        position: Summer Research Intern
+        position: Summer Research Intern (May to Jul 2019)
         location: Bengaluru, India
-        start_date: 2019-05
-        end_date: 2019-07
+        date: 2019-07
         highlights:
-          - "Built a prototype IoT door entry system with real-time text, audio and video communication."
+          - "Built a prototype IoT door-entry system with real-time text, audio and video communication, reducing latency by 83.3% versus existing standards."
           - "Developed web and mobile (Android and iOS) support for the suite."
 
     Awards:

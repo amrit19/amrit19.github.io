@@ -106,6 +106,7 @@ button:focus-visible {
 }
 .navbar .nav-link {
   font-weight: 500;
+  white-space: nowrap;
 }
 .card-text {
   color: var(--global-text-color-light);
@@ -204,17 +205,6 @@ button:focus-visible {
   font-size: 0.88rem;
   color: var(--global-text-color-light);
   margin: 0.5rem 0 0;
-}
-
-/* Same authorship key under "selected publications" on the About page */
-h2:has(> a[href$="/publications/"])::after {
-  content: "* First author; authors listed alphabetically.";
-  display: block;
-  margin-top: 0.4rem;
-  font-size: 0.88rem;
-  font-weight: 400;
-  letter-spacing: 0;
-  color: var(--global-text-color-light);
 }
 
 /* "beyond work" page: photo gallery (four columns, two on phones; landscape photos span two) */

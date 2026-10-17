@@ -1,13 +1,13 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching & service
+title: academic service & teaching
 description: Academic service and teaching.
 nav: true
 nav_order: 4
 ---
 
-## Service
+## Academic service
 
 - Reviewer, KDD 2026, Datasets and Benchmarks Track
 - Reviewer, The ACM Web Conference (WWW) 2025, Main Track
