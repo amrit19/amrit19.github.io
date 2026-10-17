@@ -67,7 +67,7 @@ I am a **Software Development Engineer II** in the Applied AI Solutions org at *
 
 Alongside my work at AWS, I do research in computational social choice, information retrieval and machine learning, driven by one question: how do you find the right answer when most people get it wrong? I study voting methods that recover the true ranking from noisy, disagreeing crowdsourced judgments, even when experts are in minority. This work began with my **MS in Informatics** at [Penn State](https://ist.psu.edu/) in the [FAIR Lab](https://faculty.ist.psu.edu/hadi/lab.html), where I was advised by [Dr. Hadi Hosseini](https://faculty.ist.psu.edu/hadi/) and mentored by [Dr. Debmalya Mandal](https://debmandal.github.io/). My thesis, [_Recovering Ground Truth Rankings When the Majority Is Misinformed_](https://etda.libraries.psu.edu/catalog/29018avp6267), won the **Best MS Thesis Award in Artificial Intelligence**, and the work was published at **NeurIPS**, **WWW** and **KDD**. Before that, I earned my **B.Tech in Computer Science and Engineering** from [NIT Rourkela](https://www.nitrkl.ac.in/), doing computer vision research with [Dr. Anup Nandy](https://www.nitrkl.ac.in/CS/~nandya/).
 
-## my career at a glance
+## My career at a glance
 
 <div class="tl">
 <style>
@@ -111,7 +111,7 @@ html[data-theme="dark"] .tl-key .tl-key-award{border-color:#e0b04a;background:rg
 
 </div>
 
-## academia
+## Academia
 
 Standard voting rules work when most people are more likely right than wrong. When experts are in minority, simply aggregating opinions, by any rule, cannot recover the truth. My research builds voting methods that still recover the true ranking in this setting. As a graduate researcher in the [FAIR Lab](https://faculty.ist.psu.edu/hadi/lab.html) at [Penn State](https://ist.psu.edu/), I worked on three questions.
 
@@ -129,7 +129,7 @@ As an undergraduate researcher in the Intelligent Computing and Computer Vision 
 - **Can cognitive state be predicted from how people walk?** We calibrated eight Kinect sensors to capture gait (CVIP 2021), reconstructed the scene in 3D, and used deep learning models to [predict cognitive state from gait]({{ '/projects/4_gait/' | relative_url }}).
 - **Can webcam hand gestures work as passwords?** We built a hand-gesture based password recognition system (ICCIS 2019).
 
-### selected publications
+### Selected publications
 
 <p class="pub-key"><sup>*</sup> Lead author; authors listed alphabetically.</p>
 
@@ -137,12 +137,12 @@ As an undergraduate researcher in the Intelligent Computing and Computer Vision 
 {% bibliography --group_by none --query @*[selected=true]* %}
 </div>
 
-### academic service
+### Academic service
 
 - Reviewer, internal Amazon science conference
 - Reviewer, KDD 2026, Datasets and Benchmarks Track
 - Reviewer, The ACM Web Conference (WWW) 2025, Main Track
 
-## industry
+## Industry
 
 At AWS, I build AI over petabyte-scale automotive and industrial data: multi-modal video search that helps ADAS/AV developers find rare edge cases with natural language queries, and time series anomaly detection for predictive maintenance. Before AWS, I built front-end applications for SAP SuccessFactors at SAP Labs India, and a door-entry system at Schneider Electric that could be unlocked from phones, laptops and other devices on any operating system.

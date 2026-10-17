@@ -304,3 +304,8 @@ html[data-theme="dark"] .news tr:has(.news-ind) th {
 html[data-theme="dark"] .news::after {
   --key-dot: #3fb8a9;
 }
+
+// The theme renders the news heading in lowercase; match the other About headings
+h2 > a[href$="/news/"] {
+  text-transform: capitalize;
+}
