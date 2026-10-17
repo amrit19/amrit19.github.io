@@ -95,13 +95,14 @@ Standard voting rules work when most people are more likely right than wrong. Wh
 - **When is recovery possible at all, and from how many votes?** We modeled human voters as groups of experts and non-experts, and derived the conditions on each group's size and expertise under which the true ranking is provably recovered, and how many votes it takes (WWW 2025).
 - **How should methods for this problem be benchmarked?** We released our crowdsourced study as a public dataset with benchmarks (KDD 2026).
 
-My work is equally theoretical and empirical, and I am now bringing it to multi-agent LLM systems around one question.
+My work is equally theoretical and empirical, and I am now bringing it to multi-agent LLM systems around two questions.
 
-- **How should LLM agents combine their answers when most of them are wrong?** I am studying this at inference time, and when producing preference labels for reward models in reinforcement learning based fine-tuning.
+- **How should LLM agents reach a consensus answer when most of them are wrong?** I am studying how to aggregate the answers of multiple agents at inference time.
+- **What labels should reward models be trained on when the labelers disagree?** I am studying how to aggregate preference labels for reward models used in reinforcement learning based fine-tuning.
 
 As an undergraduate researcher in the Intelligent Computing and Computer Vision group at [NIT Rourkela](https://www.nitrkl.ac.in/), I worked on two questions.
 
-- **Can cognitive state be predicted from how people walk?** We calibrated eight Kinect sensors to capture gait in 3D (CVIP 2021), and for my undergraduate thesis I trained [deep learning models that predict cognitive state from gait]({{ '/projects/4_gait/' | relative_url }}).
+- **Can cognitive state be predicted from how people walk?** We calibrated eight Kinect sensors to capture gait (CVIP 2021), reconstructed the scene in 3D, and used deep learning models to [predict cognitive state from gait]({{ '/projects/4_gait/' | relative_url }}).
 - **Can webcam hand gestures work as passwords?** We built a hand-gesture based password recognition system (ICCIS 2019).
 
 <div class="glance glance-res">
