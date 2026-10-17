@@ -89,15 +89,23 @@ html[data-theme="dark"] .tl-key .tl-key-award{border-color:#e0b04a;background:rg
 
 ## research &amp; industry
 
-My papers study:
+Standard voting rules work when most people are more likely right than wrong. When experts are in minority, simply aggregating opinions, by any rule, cannot recover the truth. My research builds voting methods that still recover the true ranking in this setting, around three questions.
 
-- how to recover rankings over many options when each person judges only a few, proving that the number of votes needed depends on how many options each person sees, not on the total (**NeurIPS 2024**);
-- how to model human voters as groups of experts and non-experts, and the conditions on each group's size and expertise under which the true ranking is provably recovered, and from how many votes (**WWW 2025**);
-- how to benchmark the problem, releasing our crowdsourced dataset (**KDD 2026**).
+**Can the true ranking over many options be recovered when each person judges only a few?** We designed methods that do, and proved that the number of votes needed depends on how many options each person sees, not on the total (NeurIPS 2024).
 
-My work is equally theoretical and empirical. Now I am bringing these ideas to multi-agent LLM systems.
+**When is recovery possible at all, and from how many votes?** We modeled human voters as groups of experts and non-experts, and derived the conditions on each group's size and expertise under which the true ranking is provably recovered, and how many votes it takes (WWW 2025).
 
-As an undergraduate at [NIT Rourkela](https://www.nitrkl.ac.in/), I calibrated eight Kinect sensors (CVIP 2021) to [predict cognitive state from how people walk]({{ '/projects/4_gait/' | relative_url }}), and built webcam hand-gesture passwords (ICCIS 2019).
+**How should methods for this problem be benchmarked?** We released our crowdsourced study as a public dataset with benchmarks (KDD 2026).
+
+My work is equally theoretical and empirical, and I am now bringing it to multi-agent LLM systems around one question.
+
+**How should LLM agents combine their answers when most of them are wrong?** I am studying this at inference time, and when producing preference labels for reward models in reinforcement learning based fine-tuning.
+
+As an undergraduate researcher in the Intelligent Computing and Computer Vision group at [NIT Rourkela](https://www.nitrkl.ac.in/), I worked on two questions.
+
+**Can cognitive state be predicted from how people walk?** We calibrated eight Kinect sensors to capture gait in 3D (CVIP 2021), and for my undergraduate thesis I trained [deep learning models that predict cognitive state from gait]({{ '/projects/4_gait/' | relative_url }}).
+
+**Can webcam hand gestures work as passwords?** We built a hand-gesture based password recognition system (ICCIS 2019).
 
 <div class="glance glance-res">
 <div class="glance-label">research at a glance</div>
