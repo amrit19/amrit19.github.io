@@ -6,7 +6,7 @@ importance: 8
 category: undergraduate @ NIT Rourkela
 ---
 
-**NIT Rourkela, summer 2017 (summer research internship)**
+**[NIT Rourkela](https://www.nitrkl.ac.in/), summer 2017 (summer research internship)**
 
 Under the guidance of [Dr. Anup Nandy](https://www.nitrkl.ac.in/CS/~nandya/). My first machine learning project: face recognition with principal component analysis (eigenfaces) in MATLAB, on the [AT&T Database of Faces](https://www.kaggle.com/datasets/kasikrit/att-database-of-faces) (formerly the ORL dataset) of 40 people with 10 grayscale images each.
 

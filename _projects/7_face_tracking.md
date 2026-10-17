@@ -6,7 +6,7 @@ importance: 7
 category: undergraduate @ NIT Rourkela
 ---
 
-**NIT Rourkela, Aug 2018 to Dec 2018 (Product Development Lab)**
+**[NIT Rourkela](https://www.nitrkl.ac.in/), Aug 2018 to Dec 2018 (Product Development Lab)**
 
 A real-time system that follows a person's face with a regular webcam and two servo motors.
 

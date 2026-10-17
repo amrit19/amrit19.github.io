@@ -6,7 +6,7 @@ importance: 4
 category: undergraduate @ NIT Rourkela
 ---
 
-**NIT Rourkela, Aug 2019 to May 2020 (undergraduate thesis)**
+**[NIT Rourkela](https://www.nitrkl.ac.in/), Aug 2019 to May 2020 (undergraduate thesis)**
 
 Intelligent Computing and Computer Vision research group, advised by [Dr. Anup Nandy](https://www.nitrkl.ac.in/CS/~nandya/).
 

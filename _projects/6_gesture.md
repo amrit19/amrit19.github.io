@@ -7,7 +7,7 @@ category: undergraduate @ NIT Rourkela
 related_publications: true
 ---
 
-**NIT Rourkela, Jan 2019 to May 2019 (course project)**
+**[NIT Rourkela](https://www.nitrkl.ac.in/), Jan 2019 to May 2019 (course project)**
 
 A password system based on sequences of hand gestures that runs on an ordinary built-in laptop webcam instead of a Kinect camera, with no gloves or markers, so it could be added as a security layer on everyday laptops and phones. Published at ICCIS 2019.{% nocite pisipati2020gesture %}
 
