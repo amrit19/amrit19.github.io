@@ -19,7 +19,7 @@ Outside work, I go hiking with my wife and our dog, Oreo, spend time with my par
     {% include figure.liquid path="assets/img/beyond-parents.jpg" alt="My parents and me at Bengaluru airport" caption="With my parents, Bengaluru" sizes="(max-width: 576px) 95vw, 450px" zoomable=true %}
   </div>
   <div>
-    {% include figure.liquid path="assets/img/beyond-rainier.jpg" alt="Me hiking in the snow below Mount Rainier" caption="Mount Rainier" sizes="(max-width: 576px) 50vw, 220px" zoomable=true %}
+    {% include figure.liquid path="assets/img/beyond-rainier.jpg" alt="Me on the Skyline Trail at Mount Rainier, between snow-dusted firs and autumn shrubs" caption="Skyline Trail, Mt Rainier" sizes="(max-width: 576px) 50vw, 220px" zoomable=true %}
   </div>
   <div>
     {% capture neurips_caption %}<a href="https://neurips.cc/virtual/2024/poster/96149">NeurIPS 2024</a>, Vancouver{% endcapture %}
