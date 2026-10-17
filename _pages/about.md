@@ -29,6 +29,35 @@ latest_posts:
   enabled: false
 ---
 
+<div class="dm" aria-label="Areas I work in">
+<div class="dm-ring dm-ring-res"></div>
+<div class="dm-ring dm-ring-ind"></div>
+<div class="dm-cell dm-c1"><div class="dm-h dm-res">research</div><span class="dm-res">Computational Social Choice</span><span class="dm-res">Crowdsourcing</span><span class="dm-res">Preference Learning</span><span class="dm-res">Multi-Agent LLMs</span><span class="dm-res">AI Alignment</span><span class="dm-res">Computer Vision</span></div>
+<div class="dm-cell dm-c2"><div class="dm-h dm-both">both</div><span class="dm-both">Machine Learning</span><span class="dm-both">Deep Learning</span><span class="dm-both">Probabilistic Modeling</span><span class="dm-both">Information Retrieval</span></div>
+<div class="dm-cell dm-c3"><div class="dm-h dm-ind">industry</div><span class="dm-ind">Multi-Modal &amp; Agentic Search</span><span class="dm-ind">Time Series Anomaly Detection</span><span class="dm-ind">Cloud &amp; IoT Systems</span><span class="dm-ind">Web Development &amp; CI/CD</span></div>
+</div>
+<style>
+.dm{--res:var(--global-theme-color);--ind:#1f7a70;display:grid;grid-template-columns:1fr 1fr 1fr;margin:.6rem 0 3.2rem}
+html[data-theme="dark"] .dm{--ind:#3fb8a9}
+.dm-ring{grid-row:1;border:2px solid;border-radius:2.2rem}
+.dm-ring-res{grid-column:1/3;border-color:var(--res);background:color-mix(in srgb,var(--res) 7%,transparent)}
+.dm-ring-ind{grid-column:2/4;border-color:var(--ind);background:color-mix(in srgb,var(--ind) 7%,transparent);margin-top:1.4rem;margin-bottom:-1.4rem}
+.dm-cell{grid-row:1;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.3rem;padding:1.1rem .45rem 1.3rem;text-align:center}
+.dm-c1{grid-column:1}.dm-c2{grid-column:2;padding-top:2.2rem}.dm-c3{grid-column:3;padding-top:2.6rem}
+.dm-h{font-size:.7rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;margin-bottom:.15rem}
+.dm-cell span{font-size:.86rem;font-weight:700;line-height:1.25}
+.dm-res{color:var(--res)}.dm-ind{color:var(--ind)}
+.dm-both{background:linear-gradient(90deg,var(--res),var(--ind));-webkit-background-clip:text;background-clip:text;color:transparent}
+@media (max-width:576px){
+.dm{grid-template-columns:1fr;grid-template-rows:auto auto auto;margin-bottom:2rem;clear:both}
+.dm-ring{grid-row:auto}
+.dm-ring-res{grid-column:1;grid-row:1/3;margin:0}
+.dm-ring-ind{grid-column:1;grid-row:2/4;margin:0 0 0 1rem}
+.dm-c1,.dm-c2,.dm-c3{grid-column:1;padding:.9rem .8rem}
+.dm-c1{grid-row:1}.dm-c2{grid-row:2}.dm-c3{grid-row:3}
+}
+</style>
+
 I am a **Software Development Engineer II** in the Applied AI Solutions org at **Amazon Web Services (AWS)** in Seattle, building video search over petabyte-scale autonomous driving data and time series anomaly detection on industrial data.
 
 Alongside my work at AWS, I do research in computational social choice, information retrieval and machine learning, driven by one question: how do you find the right answer when most people get it wrong? I study voting methods that recover the true ranking from noisy, disagreeing crowdsourced judgments, even when experts are in minority. This work began with my **MS in Informatics** at [Penn State](https://ist.psu.edu/) in the [FAIR Lab](https://faculty.ist.psu.edu/hadi/lab.html), where I was advised by [Dr. Hadi Hosseini](https://faculty.ist.psu.edu/hadi/) and mentored by [Dr. Debmalya Mandal](https://debmandal.github.io/). My thesis, [_Recovering Ground Truth Rankings When the Majority Is Misinformed_](https://etda.libraries.psu.edu/catalog/29018avp6267), won the **Best MS Thesis Award in Artificial Intelligence**, and the work was published at **NeurIPS**, **WWW** and **KDD**. Before that, I earned my **B.Tech in Computer Science and Engineering** from [NIT Rourkela](https://www.nitrkl.ac.in/), doing computer vision research with [Dr. Anup Nandy](https://www.nitrkl.ac.in/CS/~nandya/).
