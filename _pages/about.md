@@ -96,5 +96,6 @@ html[data-theme="dark"] .tl-key .tl-key-award{border-color:#e0b04a;background:rg
 
 ## academic service
 
+- Reviewer, internal Amazon science conference
 - Reviewer, KDD 2026, Datasets and Benchmarks Track
 - Reviewer, The ACM Web Conference (WWW) 2025, Main Track

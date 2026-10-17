@@ -9,6 +9,7 @@ nav_order: 4
 
 ## Academic service
 
+- Reviewer, internal Amazon science conference
 - Reviewer, KDD 2026, Datasets and Benchmarks Track
 - Reviewer, The ACM Web Conference (WWW) 2025, Main Track
 
