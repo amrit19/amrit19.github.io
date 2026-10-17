@@ -20,7 +20,7 @@ latest_posts:
   enabled: false
 ---
 
-How do you find the right answer when most people get it wrong? My research tackles it through voting and crowdsourcing, drawing on computational social choice and machine learning, with papers at **NeurIPS**, **WWW** and **KDD**. My MS thesis on it won the **Best MS Thesis Award in Artificial Intelligence** at Penn State.
+How do you find the right answer when most people get it wrong? My research tackles this in voting and crowdsourcing: recovering the true ranking from many noisy, disagreeing judgments, even when the experts are a minority. This work was published at **NeurIPS 2024** (recovering rankings over many options from partial preferences, with theory and a large crowdsourcing study), **WWW 2025** (modeling how human voters behave and when the truth can be recovered) and **KDD 2026** (a public dataset to benchmark it). My MS thesis on this research won the **Best MS Thesis Award in Artificial Intelligence** at Penn State.
 
 By day, I am a **Software Development Engineer II** in the Applied AI Solutions org at **Amazon Web Services (AWS)** in Seattle, building AI over petabyte-scale driving and industrial data. I have spent more than five years doing AI/ML research and about four years as a software engineer, across cloud services, machine learning systems and web development.
 
