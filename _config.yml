@@ -10,8 +10,7 @@ contact_note: >
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Amrit Puhan, Software Development Engineer II at AWS Applied AI Solutions. Research at the intersection of computational social choice and machine learning: rank aggregation, preference elicitation, Bayesian models of human judgment and multi-agent LLM systems (NeurIPS 2024, WWW 2025, KDD 2026).
-footer_text: >
-  Built with <a href="https://github.com/alshedivat/al-folio">al-folio</a>. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+footer_text:
 keywords: Amrit Puhan, AWS, Penn State, FAIR Lab, computational social choice, surprisingly popular voting, machine learning
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🎓 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -19,7 +18,7 @@ apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL)
 
 url: https://www.amritpuhan.com # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
