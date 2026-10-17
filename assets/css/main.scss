@@ -276,3 +276,31 @@ html[data-theme="dark"] .news tr:has(.news-ind) th {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+// Color key above the news list, matching the career timeline and the Venn
+.news {
+  position: relative;
+  padding-top: 1.7rem;
+}
+.news::before,
+.news::after {
+  position: absolute;
+  top: 0;
+  padding-left: 1.05rem;
+  font-size: 0.72rem;
+  color: var(--global-text-color-light);
+  background: radial-gradient(circle at 0.35rem 50%, var(--key-dot) 0.33rem, transparent 0.37rem) no-repeat;
+}
+.news::before {
+  --key-dot: var(--global-theme-color);
+  content: "Research";
+  left: 0.3rem;
+}
+.news::after {
+  --key-dot: #1f7a70;
+  content: "Industry";
+  left: 5.6rem;
+}
+html[data-theme="dark"] .news::after {
+  --key-dot: #3fb8a9;
+}

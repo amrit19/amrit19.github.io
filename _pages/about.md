@@ -29,6 +29,7 @@ latest_posts:
   enabled: false
 ---
 
+<div class="dm-key"><span><i class="dm-k-res"></i>Research</span><span><i class="dm-k-both"></i>Both</span><span><i class="dm-k-ind"></i>Industry</span></div>
 <div class="dm" aria-label="Areas I work in">
 <div class="dm-ring dm-ring-res"></div>
 <div class="dm-ring dm-ring-ind"></div>
@@ -37,8 +38,11 @@ latest_posts:
 <div class="dm-cell dm-c3"><div class="dm-h dm-ind">industry</div><span class="dm-ind">Multi-Modal &amp; Agentic Search</span><span class="dm-ind">Time Series Anomaly Detection</span><span class="dm-ind">Cloud &amp; IoT Systems</span><span class="dm-ind">Web Development &amp; CI/CD</span></div>
 </div>
 <style>
-.dm{--res:var(--global-theme-color);--ind:#1f7a70;display:grid;grid-template-columns:1fr 1fr 1fr;margin:.6rem 0 3.2rem}
-html[data-theme="dark"] .dm{--ind:#3fb8a9}
+.dm{--res:var(--global-theme-color);--ind:#1f7a70;display:grid;grid-template-columns:1fr 1fr 1fr;margin:0 0 3.2rem}
+.dm-key{--res:var(--global-theme-color);--ind:#1f7a70;display:flex;flex-wrap:wrap;gap:.4rem 1rem;font-size:.72rem;color:var(--global-text-color-light);margin:.2rem 0 .6rem}
+html[data-theme="dark"] .dm,html[data-theme="dark"] .dm-key{--ind:#3fb8a9}
+.dm-key i{display:inline-block;width:.7rem;height:.7rem;border-radius:50%;margin-right:.3rem;vertical-align:-.05rem}
+.dm-k-res{background:var(--res)}.dm-k-ind{background:var(--ind)}.dm-k-both{background:linear-gradient(90deg,var(--res) 50%,var(--ind) 50%)}
 .dm-ring{grid-row:1;border:2px solid;border-radius:2.2rem}
 .dm-ring-res{grid-column:1/3;border-color:var(--res);background:color-mix(in srgb,var(--res) 7%,transparent)}
 .dm-ring-ind{grid-column:2/4;border-color:var(--ind);background:color-mix(in srgb,var(--ind) 7%,transparent);margin-top:1.4rem;margin-bottom:-1.4rem}
@@ -50,6 +54,7 @@ html[data-theme="dark"] .dm{--ind:#3fb8a9}
 .dm-both{background:linear-gradient(90deg,var(--res),var(--ind));-webkit-background-clip:text;background-clip:text;color:transparent}
 @media (max-width:576px){
 .dm{grid-template-columns:1fr;grid-template-rows:auto auto auto;margin-bottom:2rem;clear:both}
+.dm-key{clear:both;padding-top:.4rem}
 .dm-ring{grid-row:auto}
 .dm-ring-res{grid-column:1;grid-row:1/3;margin:0}
 .dm-ring-ind{grid-column:1;grid-row:2/4;margin:0 0 0 1rem}
@@ -85,11 +90,12 @@ Alongside my work at AWS, I do research in computational social choice, informat
 .tl-pubs .tl-award{border-color:#8a5a00;background:#fff3d6;color:#6b4500}
 html[data-theme="dark"] .tl-pubs .tl-award{border-color:#e0b04a;background:rgba(224,176,74,.16);color:#f2cb73}
 .tl-edu{--c:var(--global-theme-color)}.tl-ind{--c:#1f7a70}html[data-theme="dark"] .tl-ind{--c:#3fb8a9}
-.tl-key{display:flex;gap:1rem;font-size:.72rem;color:var(--global-text-color-light);margin-top:.6rem}
+.tl-key{display:flex;flex-wrap:wrap;gap:.4rem 1rem;font-size:.72rem;color:var(--global-text-color-light);margin-bottom:.9rem}
 .tl-key i{display:inline-block;width:.7rem;height:.7rem;border-radius:50%;margin-right:.3rem;vertical-align:-.05rem}
 .tl-key .tl-key-pub{border:1px solid var(--global-theme-color);background:transparent}.tl-key .tl-key-award{border:1px solid #8a5a00;background:#fff3d6}
 html[data-theme="dark"] .tl-key .tl-key-award{border-color:#e0b04a;background:rgba(224,176,74,.16)}
 </style>
+<div class="tl-key"><span><i style="background:var(--global-theme-color)"></i>Education &amp; research</span><span><i class="tl-ind" style="background:var(--c)"></i>Industry</span><span><i class="tl-key-pub"></i>Publication</span><span><i class="tl-key-award"></i>Award</span></div>
 <div class="tl-grid">
 <a class="tl-card tl-top tl-edu" style="grid-column:1" href="{{ '/projects/' | relative_url }}"><div class="tl-when">2016 – 2020</div><div class="tl-org">NIT Rourkela</div><div class="tl-role">B.Tech, Computer Science &amp; Engineering</div><span class="tl-f">Computer Vision &amp; Machine Learning</span> for cognitive state prediction from human gait<div class="tl-pubs"><span>CVIP 2021</span><span>ICCIS 2019</span></div></a>
 <div class="tl-node tl-edu" style="grid-column:1"><span></span></div>
@@ -102,19 +108,8 @@ html[data-theme="dark"] .tl-key .tl-key-award{border-color:#e0b04a;background:rg
 <a class="tl-card tl-top tl-ind" style="grid-column:5" href="{{ '/cv/' | relative_url }}"><div class="tl-when">2024 – now</div><div class="tl-org">Amazon Web Services</div><div class="tl-role">SDE (2024), SDE II (2026), Applied AI Solutions</div><span class="tl-f">Multi-Modal Video Search &amp; Anomaly Detection</span> over petabyte-scale automotive and industrial data, for ADAS/AV teams and predictive maintenance</a>
 <div class="tl-node tl-ind" style="grid-column:5"><span></span></div>
 </div>
-<div class="tl-key"><span><i style="background:var(--global-theme-color)"></i>Education &amp; research</span><span><i class="tl-ind" style="background:var(--c)"></i>Industry</span><span><i class="tl-key-pub"></i>Publication</span><span><i class="tl-key-award"></i>Award</span></div>
-</div>
 
-<style>
-.glance{margin:1rem 0 1.9rem}
-.glance-label{font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--global-text-color-light);margin-bottom:.5rem}
-.glance-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.6rem}
-.glance-card{border:1px solid var(--global-divider-color);border-top:3px solid var(--c);border-radius:.6rem;padding:.7rem .75rem;background:var(--global-bg-color)}
-.glance-big{font-size:1.02rem;font-weight:800;line-height:1.2;color:var(--c)}
-.glance-small{font-size:.78rem;line-height:1.35;color:var(--global-text-color-light);margin-top:.35rem}
-.glance-res{--c:var(--global-theme-color)}.glance-ind{--c:#1f7a70}html[data-theme="dark"] .glance-ind{--c:#3fb8a9}
-@media (max-width:760px){.glance-grid{grid-template-columns:1fr 1fr}}
-</style>
+</div>
 
 ## research
 
@@ -134,16 +129,6 @@ As an undergraduate researcher in the Intelligent Computing and Computer Vision 
 - **Can cognitive state be predicted from how people walk?** We calibrated eight Kinect sensors to capture gait (CVIP 2021), reconstructed the scene in 3D, and used deep learning models to [predict cognitive state from gait]({{ '/projects/4_gait/' | relative_url }}).
 - **Can webcam hand gestures work as passwords?** We built a hand-gesture based password recognition system (ICCIS 2019).
 
-<div class="glance glance-res">
-<div class="glance-label">research at a glance</div>
-<div class="glance-grid">
-<div class="glance-card"><div class="glance-big">Computational Social Choice</div><div class="glance-small">voting methods that recover the truth when the majority is wrong</div></div>
-<div class="glance-card"><div class="glance-big">Bayesian Modeling</div><div class="glance-small">Mallows and Plackett-Luce models of how people rank</div></div>
-<div class="glance-card"><div class="glance-big">Multi-Agent LLMs</div><div class="glance-small">how LLM agents should combine their answers</div></div>
-<div class="glance-card"><div class="glance-big">AI Alignment</div><div class="glance-small">social choice for aligning AI with diverse human preferences</div></div>
-</div>
-</div>
-
 ### selected publications
 
 <p class="pub-key"><sup>*</sup> Lead author; authors listed alphabetically.</p>
@@ -155,16 +140,6 @@ As an undergraduate researcher in the Intelligent Computing and Computer Vision 
 ## industry
 
 At AWS, I build AI over petabyte-scale automotive and industrial data: multi-modal video search that helps ADAS/AV developers find rare edge cases with natural language queries, and time series anomaly detection for predictive maintenance. Before AWS, I built front-end applications for SAP SuccessFactors at SAP Labs India, and a door-entry system at Schneider Electric that could be unlocked from phones, laptops and other devices on any operating system.
-
-<div class="glance glance-ind">
-<div class="glance-label">industry at a glance</div>
-<div class="glance-grid">
-<div class="glance-card"><div class="glance-big">Information Retrieval</div><div class="glance-small">semantic, multi-modal and agentic search over petabyte-scale video, sensor and annotation data for ADAS/AV teams, AWS</div></div>
-<div class="glance-card"><div class="glance-big">Deep Learning &amp; Probabilistic Modeling</div><div class="glance-small">unsupervised time series anomaly detection for predictive maintenance of industrial equipment, AWS</div></div>
-<div class="glance-card"><div class="glance-big">Cloud &amp; IoT Systems</div><div class="glance-small">an IoT service connecting vehicle fleets to the cloud (AWS), and a cross-device IoT door-entry system (Schneider Electric)</div></div>
-<div class="glance-card"><div class="glance-big">Web Development &amp; CI/CD</div><div class="glance-small">front-end apps for SAP SuccessFactors, and CI/CD for ten teams, SAP Labs India</div></div>
-</div>
-</div>
 
 ## academic service
 
