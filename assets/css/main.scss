@@ -254,3 +254,25 @@ button:focus-visible {
 html[data-theme="dark"] .news tr:has(.news-ind) th {
   color: #3fb8a9;
 }
+
+// Quick links stacked under the profile photo, two per row (three on phones)
+.profile .more-info {
+  font-family: inherit;
+}
+.profile .more-info .quick-links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.45rem;
+  margin: 0.9rem 0 1.25rem;
+}
+.profile .more-info .quick-links a {
+  justify-content: center;
+  padding: 0.35rem 0.5rem;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+@media (max-width: 576px) {
+  .profile .more-info .quick-links {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

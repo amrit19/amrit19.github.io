@@ -7,6 +7,15 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
+  more_info: >
+    <div class="quick-links">
+    <a href="mailto:amrit.puhan@outlook.com"><i class="fa-solid fa-envelope"></i> Email</a>
+    <a href="/assets/pdf/Amrit_Puhan_CV.pdf"><i class="fa-solid fa-file-pdf"></i> CV (PDF)</a>
+    <a href="/publications/"><i class="fa-solid fa-book-open"></i> Publications</a>
+    <a href="https://scholar.google.com/citations?user=G1U8jiIAAAAJ"><i class="ai ai-google-scholar"></i> Scholar</a>
+    <a href="https://www.linkedin.com/in/amritpuhan"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+    <a href="https://github.com/amrit19"><i class="fa-brands fa-github"></i> GitHub</a>
+    </div>
 
 selected_papers: false # selected papers are placed after the industry cards below
 social: true # includes social icons at the bottom of the page
@@ -20,18 +29,9 @@ latest_posts:
   enabled: false
 ---
 
-How do you find the right answer when most people get it wrong? My research tackles this in voting and crowdsourcing: recovering the true ranking from many noisy, disagreeing judgments, even when the experts are a minority. My papers study how to recover rankings over many options from partial preferences, with theory and a large crowdsourcing study (**NeurIPS 2024**), how to model human voter behavior and when the truth can be recovered (**WWW 2025**), and how to benchmark it with a public dataset (**KDD 2026**). My MS thesis on this research won the **Best MS Thesis Award in Artificial Intelligence** at Penn State.
+I am a **Software Development Engineer II** in the Applied AI Solutions org at **Amazon Web Services (AWS)** in Seattle, building AI over petabyte-scale driving and industrial data.
 
-By day, I am a **Software Development Engineer II** in the Applied AI Solutions org at **Amazon Web Services (AWS)** in Seattle, building AI over petabyte-scale driving and industrial data. I have spent more than five years doing AI/ML research and about four years as a software engineer, across cloud services, machine learning systems and web development.
-
-<div class="quick-links">
-  <a href="mailto:amrit.puhan@outlook.com"><i class="fa-solid fa-envelope"></i> Email</a>
-  <a href="{{ '/assets/pdf/Amrit_Puhan_CV.pdf' | relative_url }}"><i class="fa-solid fa-file-pdf"></i> CV (PDF)</a>
-  <a href="{{ '/publications/' | relative_url }}"><i class="fa-solid fa-book-open"></i> Publications</a>
-  <a href="https://scholar.google.com/citations?user=G1U8jiIAAAAJ"><i class="ai ai-google-scholar"></i> Scholar</a>
-  <a href="https://www.linkedin.com/in/amritpuhan"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-  <a href="https://github.com/amrit19"><i class="fa-brands fa-github"></i> GitHub</a>
-</div>
+Alongside my work at AWS, I do research in computational social choice and machine learning, driven by one question: how do you find the right answer when most people get it wrong? I study voting methods that recover the true ranking from noisy, disagreeing crowdsourced judgments, even when experts are in minority. This work began with my **MS in Informatics** at [Penn State](https://ist.psu.edu/) in the [FAIR Lab](https://faculty.ist.psu.edu/hadi/lab.html), where I was advised by [Dr. Hadi Hosseini](https://faculty.ist.psu.edu/hadi/) and mentored by [Dr. Debmalya Mandal](https://debmandal.github.io/). My thesis, [_Recovering Ground Truth Rankings When the Majority Is Misinformed_](https://etda.libraries.psu.edu/catalog/29018avp6267), won the **Best MS Thesis Award in Artificial Intelligence**, and the work was published at **NeurIPS**, **WWW** and **KDD**. Before that, I earned my **B.Tech in Computer Science and Engineering** from [NIT Rourkela](https://www.nitrkl.ac.in/), doing computer vision research with [Dr. Anup Nandy](https://www.nitrkl.ac.in/CS/~nandya/).
 
 ## my career at a glance
 
@@ -89,9 +89,15 @@ html[data-theme="dark"] .tl-key .tl-key-award{border-color:#e0b04a;background:rg
 
 ## research &amp; industry
 
-I study how to recover the truth from many noisy, disagreeing judgments, especially when the experts are a minority and the majority is wrong. My work combines computational social choice and machine learning, and is equally theoretical and empirical. At Penn State's [FAIR Lab](https://faculty.ist.psu.edu/hadi/lab.html), advised by [Dr. Hadi Hosseini](https://faculty.ist.psu.edu/hadi/) and mentored by [Dr. Debmalya Mandal](https://debmandal.github.io/), this became my [MS thesis](https://etda.libraries.psu.edu/catalog/29018avp6267) on _surprisingly popular_ voting. Now I am bringing these ideas to multi-agent LLM systems.
+My papers study:
 
-Before that, at [NIT Rourkela](https://www.nitrkl.ac.in/), I calibrated eight Kinect sensors (CVIP 2021) to [predict cognitive state from how people walk]({{ '/projects/4_gait/' | relative_url }}), and built webcam hand-gesture passwords (ICCIS 2019).
+- how to recover rankings over many options when each person judges only a few, proving that the number of votes needed depends on how many options each person sees, not on the total (**NeurIPS 2024**);
+- how to model human voters as groups of experts and non-experts, and the conditions on each group's size and expertise under which the true ranking is provably recovered, and from how many votes (**WWW 2025**);
+- how to benchmark the problem, releasing our crowdsourced dataset (**KDD 2026**).
+
+My work is equally theoretical and empirical. Now I am bringing these ideas to multi-agent LLM systems.
+
+As an undergraduate at [NIT Rourkela](https://www.nitrkl.ac.in/), I calibrated eight Kinect sensors (CVIP 2021) to [predict cognitive state from how people walk]({{ '/projects/4_gait/' | relative_url }}), and built webcam hand-gesture passwords (ICCIS 2019).
 
 <div class="glance glance-res">
 <div class="glance-label">research at a glance</div>
