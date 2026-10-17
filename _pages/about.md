@@ -17,7 +17,7 @@ profile:
     <a href="https://github.com/amrit19"><i class="fa-brands fa-github"></i> GitHub</a>
     </div>
 
-selected_papers: false # selected papers are placed after the industry cards below
+selected_papers: false # selected papers are placed in the research section below
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -87,25 +87,22 @@ html[data-theme="dark"] .tl-key .tl-key-award{border-color:#e0b04a;background:rg
 @media (max-width:760px){.glance-grid{grid-template-columns:1fr 1fr}}
 </style>
 
-## research &amp; industry
+## research
 
-Standard voting rules work when most people are more likely right than wrong. When experts are in minority, simply aggregating opinions, by any rule, cannot recover the truth. My research builds voting methods that still recover the true ranking in this setting, around three questions.
+Standard voting rules work when most people are more likely right than wrong. When experts are in minority, simply aggregating opinions, by any rule, cannot recover the truth. My research builds voting methods that still recover the true ranking in this setting. As a graduate researcher in the [FAIR Lab](https://faculty.ist.psu.edu/hadi/lab.html) at [Penn State](https://ist.psu.edu/), I worked on three questions.
 
-**Can the true ranking over many options be recovered when each person judges only a few?** We designed methods that do, and proved that the number of votes needed depends on how many options each person sees, not on the total (NeurIPS 2024).
-
-**When is recovery possible at all, and from how many votes?** We modeled human voters as groups of experts and non-experts, and derived the conditions on each group's size and expertise under which the true ranking is provably recovered, and how many votes it takes (WWW 2025).
-
-**How should methods for this problem be benchmarked?** We released our crowdsourced study as a public dataset with benchmarks (KDD 2026).
+- **Can the true ranking over many options be recovered when each person judges only a few?** We designed methods that do, and proved that the number of votes needed depends on how many options each person sees, not on the total (NeurIPS 2024).
+- **When is recovery possible at all, and from how many votes?** We modeled human voters as groups of experts and non-experts, and derived the conditions on each group's size and expertise under which the true ranking is provably recovered, and how many votes it takes (WWW 2025).
+- **How should methods for this problem be benchmarked?** We released our crowdsourced study as a public dataset with benchmarks (KDD 2026).
 
 My work is equally theoretical and empirical, and I am now bringing it to multi-agent LLM systems around one question.
 
-**How should LLM agents combine their answers when most of them are wrong?** I am studying this at inference time, and when producing preference labels for reward models in reinforcement learning based fine-tuning.
+- **How should LLM agents combine their answers when most of them are wrong?** I am studying this at inference time, and when producing preference labels for reward models in reinforcement learning based fine-tuning.
 
 As an undergraduate researcher in the Intelligent Computing and Computer Vision group at [NIT Rourkela](https://www.nitrkl.ac.in/), I worked on two questions.
 
-**Can cognitive state be predicted from how people walk?** We calibrated eight Kinect sensors to capture gait in 3D (CVIP 2021), and for my undergraduate thesis I trained [deep learning models that predict cognitive state from gait]({{ '/projects/4_gait/' | relative_url }}).
-
-**Can webcam hand gestures work as passwords?** We built a hand-gesture based password recognition system (ICCIS 2019).
+- **Can cognitive state be predicted from how people walk?** We calibrated eight Kinect sensors to capture gait in 3D (CVIP 2021), and for my undergraduate thesis I trained [deep learning models that predict cognitive state from gait]({{ '/projects/4_gait/' | relative_url }}).
+- **Can webcam hand gestures work as passwords?** We built a hand-gesture based password recognition system (ICCIS 2019).
 
 <div class="glance glance-res">
 <div class="glance-label">research at a glance</div>
@@ -117,6 +114,16 @@ As an undergraduate researcher in the Intelligent Computing and Computer Vision 
 </div>
 </div>
 
+### selected publications
+
+<p class="pub-key"><sup>*</sup> Lead author; authors listed alphabetically.</p>
+
+<div class="publications">
+{% bibliography --group_by none --query @*[selected=true]* %}
+</div>
+
+## industry
+
 At AWS, I build AI over petabyte-scale automotive and industrial data: multi-modal video search that helps ADAS/AV developers find rare edge cases with natural language queries, and time series anomaly detection for predictive maintenance. Before AWS, I built front-end applications for SAP SuccessFactors at SAP Labs India, and a door-entry system at Schneider Electric that could be unlocked from phones, laptops and other devices on any operating system.
 
 <div class="glance glance-ind">
@@ -127,14 +134,6 @@ At AWS, I build AI over petabyte-scale automotive and industrial data: multi-mod
 <div class="glance-card"><div class="glance-big">Cloud &amp; IoT Systems</div><div class="glance-small">an IoT service connecting vehicle fleets to the cloud (AWS), and a cross-device IoT door-entry system (Schneider Electric)</div></div>
 <div class="glance-card"><div class="glance-big">Web Development &amp; CI/CD</div><div class="glance-small">front-end apps for SAP SuccessFactors, and CI/CD for ten teams, SAP Labs India</div></div>
 </div>
-</div>
-
-### selected publications
-
-<p class="pub-key"><sup>*</sup> Lead author; authors listed alphabetically.</p>
-
-<div class="publications">
-{% bibliography --group_by none --query @*[selected=true]* %}
 </div>
 
 ## academic service
