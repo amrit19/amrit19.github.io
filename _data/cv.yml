@@ -65,7 +65,7 @@ cv:
         location: State College, PA
         start_date: 2023-01
         end_date: 2024-12
-        summary: "Advised by [Dr. Hadi Hosseini](https://faculty.ist.psu.edu/hadi/); collaborated with [Dr. Debmalya Mandal](https://debmandal.github.io/) (University of Warwick)."
+        summary: "Advised by [Dr. Hadi Hosseini](https://faculty.ist.psu.edu/hadi/); co-advised by [Dr. Debmalya Mandal](https://debmandal.github.io/) (University of Warwick)."
         highlights:
           - "Designed scalable Surprisingly Popular (SP) voting algorithms that recover ground-truth rankings from partial preferences when experts are a minority. The best variant (Partial-SP) recovers the true ranking about 50% more accurately than Copeland on votes alone (about 90% vs 60% of pairs ordered correctly). (NeurIPS 2024)"
           - "Ran a crowdsourcing study with 432 participants on Amazon MTurk across three domains (geography, movies, paintings) of 36 alternatives each."

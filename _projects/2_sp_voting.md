@@ -9,7 +9,7 @@ related_publications: true
 
 **[FAIR Lab](https://faculty.ist.psu.edu/hadi/lab.html), Penn State, Jan 2023 to Dec 2024**
 
-Advised by [Dr. Hadi Hosseini](https://faculty.ist.psu.edu/hadi/); mentored by and in collaboration with [Dr. Debmalya Mandal](https://debmandal.github.io/).
+Advised by [Dr. Hadi Hosseini](https://faculty.ist.psu.edu/hadi/); co-advised by [Dr. Debmalya Mandal](https://debmandal.github.io/).
 
 When most of a crowd is misinformed, aggregating their votes amplifies the error. The _surprisingly popular_ (SP) algorithm asks each person for their own answer and for a prediction of how others will answer, then picks the answer that is more popular than predicted. That lets it recover the truth even when the experts are a minority. My MS work extended SP from single questions to rankings over many alternatives.
 
